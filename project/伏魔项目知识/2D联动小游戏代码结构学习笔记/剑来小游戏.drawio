@@ -1,0 +1,605 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="第 1 页" id="hEcFgx750OysjZIsmj1R">
+    <mxGraphModel dx="2253" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YXTXcPzekfWYoKXYRShO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-1" target="YXTXcPzekfWYoKXYRShO-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-1" value="入口：startFight" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-4" value="启动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="78" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-33" target="YXTXcPzekfWYoKXYRShO-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-33" value="&lt;pre style=&quot;margin-top: 0px;&quot;&gt;FightManager2D&lt;/pre&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;处理启动，暂停，恢复，&lt;/pre&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;终止战斗逻辑&lt;/pre&gt;&lt;/pre&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;fithgProcess：&lt;/p&gt;&lt;div&gt;当前战斗逻辑&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;startJLFight:&lt;/p&gt;&lt;div&gt;剑来联动战斗逻辑启动函数&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="108" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-34" target="YXTXcPzekfWYoKXYRShO-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;JLGameFightProcess&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;mapObj: JLGameFightMap&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;mapLayer: fgui.GComponent&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;bossLayer:fgui.GComponent;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;playerLayer: fgui.GComponent&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;fireLayer: fgui.GComponentfly&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;TextLayer: fgui.GComponent&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;资源分层&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;start()：初始化地图&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-36" target="YXTXcPzekfWYoKXYRShO-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-36" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FightProcess2DBase：战斗逻辑基类&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;isWorking：boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;const_useFrameManager2D&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;start(param: any)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;pause()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;resume()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;startFrameLoop()：开始主循环&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;doLoop(): 具体的循环执行&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-37" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-34" target="YXTXcPzekfWYoKXYRShO-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="270" as="sourcePoint" />
+            <mxPoint x="690" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-39" value="FrameManager2D：2D玩法的循环驱动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="355" width="160" height="100" as="geometry">
+            <mxRectangle x="-150" y="385" width="250" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-39">
+          <mxGeometry y="40" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-42" value="Laya.timer.frameLoop中遍历执行所有未暂停的注册方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-39">
+          <mxGeometry y="48" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-49" value="JLGameFightUtilManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="648" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-50" value="战斗具体的行为控制等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-49">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-51" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-49">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-133" value="onFightStart()：开始战斗" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-49">
+          <mxGeometry y="60" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-52" value="initPlayerEntity：初始化玩家数据创建玩家对象实体" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-49">
+          <mxGeometry y="100" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-53" value="JLGameFightMap&amp;nbsp;extends View" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="545" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-54" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-53">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-53">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-67" value="onShow()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-53">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-82" value="处理npc建筑的添加和销毁，自身的移动等逻辑，切换房间显示特效等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-53">
+          <mxGeometry y="86" width="200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-127" value="onLoopRunMap()：由主循环调用，将地图和boss建筑移动到正确位置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-53">
+          <mxGeometry y="130" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-57" target="YXTXcPzekfWYoKXYRShO-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-57" value="startGameMap():创建JLGameFightMap添加到mapLayer节点下" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="550" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.547;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-34" target="YXTXcPzekfWYoKXYRShO-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="510" />
+              <mxPoint x="300" y="510" />
+              <mxPoint x="300" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-62" target="YXTXcPzekfWYoKXYRShO-125">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-62" value="doLoop(timeDelta: number)&amp;nbsp;&lt;div&gt;主循环&lt;/div&gt;&lt;div&gt;通过状态机判断EJlGameFightMapState状态类型执行对应逻辑&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="800" y="600" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-68" value="dispatch(JLGameFightMapComplete)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1.005;exitY=0.769;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-67" target="YXTXcPzekfWYoKXYRShO-69">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-10" y="690" as="sourcePoint" />
+            <mxPoint x="320" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-69" target="YXTXcPzekfWYoKXYRShO-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-69" value="地图初始化结束回传玩家npc和boss的节点&lt;div&gt;onJLGameFightMapComplete&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="605" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-71" target="YXTXcPzekfWYoKXYRShO-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-52" target="YXTXcPzekfWYoKXYRShO-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-71" value="initPlayerEntity" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="710" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-73" value="JLGameFightPlayerEntity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="820" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-74" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-73">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-75" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-73">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-92" value="onPlayerSkillAttack:攻击和大招技能特效用getTransition.play()实现" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-73">
+          <mxGeometry y="60" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-84" value="use" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="722" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-87" value="JLGameFightBaseEntity&amp;nbsp;extends View" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="800" width="234" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-88" value="管理自身资源生成与销毁，spine的动作播放，位置管理，特效管理等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-87">
+          <mxGeometry y="26" width="234" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-89" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-87">
+          <mxGeometry y="60" width="234" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-90" value="生命值变更，死亡处理，生命值表现等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-87">
+          <mxGeometry y="78" width="234" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-91" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-73" target="YXTXcPzekfWYoKXYRShO-88">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="500" y="840" as="sourcePoint" />
+            <mxPoint x="410" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-98" target="YXTXcPzekfWYoKXYRShO-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-98" value="这种类回合制的战斗机制不需要考虑技能碰撞，&lt;div&gt;在播技能特效和动作前计算伤害和敌人同步播放受击动作就行&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="890" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.32;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-100" target="YXTXcPzekfWYoKXYRShO-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="973" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-100" value="创建完地图和玩家实体之后什么都不做，&lt;div&gt;等待玩家点击界面上的GetSkillBtn按钮触发下一个事件进入下一个房间&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="980" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-101" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.369;exitY=1.056;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.575;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-92" target="YXTXcPzekfWYoKXYRShO-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="830" as="sourcePoint" />
+            <mxPoint x="560" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="940" />
+              <mxPoint x="580" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-103" value="EventName.JLGameFightMapStepChange" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="410" width="247" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-104" target="YXTXcPzekfWYoKXYRShO-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-104" target="YXTXcPzekfWYoKXYRShO-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-104" value="onStepChange(stepCfg: prop_act_traveler_step, room: number, force: boolean = false): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="270" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-108" value="如果是EJlGameFightMapState.Fight状态" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="268" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-109" target="YXTXcPzekfWYoKXYRShO-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-109" value="initBossEntity,经过&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;JLGameFightUtilManager&lt;/span&gt;创建boss实体" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="276" width="130" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-111" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.23;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-34" target="YXTXcPzekfWYoKXYRShO-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="460" as="sourcePoint" />
+            <mxPoint x="1100" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-112" value="JLGameFightBossEntity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="330" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-113" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-112">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-114" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-112">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-115" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-112">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-118" value="onStepChange改变的mapState成fight" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="510" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-122" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.64;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-104" target="YXTXcPzekfWYoKXYRShO-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="610" as="sourcePoint" />
+            <mxPoint x="1060" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-125" target="YXTXcPzekfWYoKXYRShO-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-125" value="进入战斗逻辑，调用&lt;span style=&quot;font-weight: 700;&quot;&gt;JLGameFightMap的&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;onLoopRunMap完成boss入场&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="660" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-129" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.694;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.021;exitY=0.622;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-62" target="YXTXcPzekfWYoKXYRShO-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="720" as="sourcePoint" />
+            <mxPoint x="720" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-131" value="设置玩家实体待机动画，调用开始战斗，开启自动飞剑" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.989;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-131" target="YXTXcPzekfWYoKXYRShO-133">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="850" />
+              <mxPoint x="1160" y="830" />
+              <mxPoint x="850" y="830" />
+              <mxPoint x="850" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-138" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;JLGameFightUtilManager.&lt;/span&gt;onFightStart()" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=240;height=30;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="950" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-133" target="YXTXcPzekfWYoKXYRShO-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="728" />
+              <mxPoint x="1050" y="920" />
+              <mxPoint x="1125" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-139" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.467;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.467;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-138" target="YXTXcPzekfWYoKXYRShO-140">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="1120" as="sourcePoint" />
+            <mxPoint x="1140" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-140" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;JLGameFightUtilManager.&lt;/span&gt;onRoundStart()" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=240;height=30;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1110" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-142" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.47;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.47;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-140" target="YXTXcPzekfWYoKXYRShO-143">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="1207" as="sourcePoint" />
+            <mxPoint x="1140" y="1254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-143" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;JLGameFightUtilManager.&lt;/span&gt;onAtkRelease()" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=240;height=30;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1250" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-144" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1100" width="80" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-145" value="一个回合的生命周期" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;fontSize=20;horizontal=1;textDirection=vertical-lr;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-144">
+          <mxGeometry x="-60" y="310" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-146" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.47;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.467;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="YXTXcPzekfWYoKXYRShO-147" source="YXTXcPzekfWYoKXYRShO-143">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1141" y="1350" as="sourcePoint" />
+            <mxPoint x="1140" y="1404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-147" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;JLGameFightUtilManager.&lt;/span&gt;onSkillRelease()" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=240;height=30;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1420" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-149" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.47;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.47;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="YXTXcPzekfWYoKXYRShO-150" source="YXTXcPzekfWYoKXYRShO-147">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="1500" as="sourcePoint" />
+            <mxPoint x="1140" y="1556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-150" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;JLGameFightUtilManager.&lt;/span&gt;onEnemyStart()" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=240;height=30;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1580" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-151" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.47;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.473;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="YXTXcPzekfWYoKXYRShO-152" source="YXTXcPzekfWYoKXYRShO-150">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1141" y="1661" as="sourcePoint" />
+            <mxPoint x="1140" y="1708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-152" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;JLGameFightUtilManager.&lt;/span&gt;onEnemyAck()" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=240;height=30;" vertex="1" parent="1">
+          <mxGeometry x="1001" y="1701" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.003;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-152" target="YXTXcPzekfWYoKXYRShO-140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="1300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="1751" />
+              <mxPoint x="930" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-153" value="战斗开始后不会有新增特殊节点buff，对特殊节点buff做预处理，之后在对应时机触发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1000" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-154" value="通过stepOperCount行为计数来判断当前节点是否完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="978" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-155" value="每个节点都通过onStepHandlerBuffArr处理当前阶段需要触发的全部buff" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1020" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-156" value="最后处理完当前的飞到和剑气后进入下一个节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1040" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-157" value="战斗开始" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1236" y="950" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-158" value="回合开始" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1236" y="1110" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-159" value="判断回合数上限导致的战斗失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1139" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-186" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.2;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-160" target="YXTXcPzekfWYoKXYRShO-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="1175" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="1175" />
+              <mxPoint x="760" y="740" />
+              <mxPoint x="750" y="740" />
+              <mxPoint x="750" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-160" value="同样的本阶段buff处理和飞刀剑气" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1160" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-161" value="普通攻击" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="1249" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-162" value="处理buff，计算攻击力，包括加成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1279" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-163" target="YXTXcPzekfWYoKXYRShO-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-163" value="播放音效，通过playerEntity.onPlayerNormalAttack&lt;div&gt;触发攻击动画和特效，boss的受击表现和生命值计算&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1300" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-166" value="普攻表现完成后执行两个特殊buff触发飞刀和剑气" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1001" y="1330" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-167" value="飞刀剑气结束后进入连击判定，判定通过再次进入普攻流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="995" y="1350" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-168" value="大招攻击" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1236" y="1420" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-169" value="怒气不足直接跳出，减怒气，二次大招不减&lt;div&gt;计算阶段buff，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;如果是二次大招跳过TwoSkill&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="996" y="1450" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-170" value="计算伤害，播放表现，回调触发飞刀和剑气&lt;div&gt;有二次大招buff再次进入大招流程&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="999" y="1481" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-172" value="敌人攻击前" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1231" y="1580" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-173" value="处理步骤buff，处理蛊毒和燃烧的伤害和表现，&lt;div&gt;结束后处理识破，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;识破触发会过一遍类连击的普攻流程&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="995" y="1610" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-174" value="播放音效，boss动作，没有特效，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;计算玩家扣血&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="999" y="1731" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-175" value="过完攻击后再过一遍buff处理，然后接飞刀和剑气" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="999" y="1761" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-177" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.001;exitY=0.129;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-138" target="YXTXcPzekfWYoKXYRShO-178">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="1100" as="sourcePoint" />
+            <mxPoint x="350" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-178" value="buff处理" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1080" width="590" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-179" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.battleReport：记录全局生效buff的，比如一些属性加成，蛊毒和燃烧叠层等&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2.roundBattleReport：回合内生效的属性加成，比如普攻时攻击力加成等&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3.stepBattleReport：当前步骤buff记录，比如飞剑和剑气的触发buff&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-178">
+          <mxGeometry x="5" y="20" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-180" value="飞刀和剑气在stepBattleReport叠层，然后在本步骤合适的时机触发，每把飞刀还有可能携带buff" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-178">
+          <mxGeometry x="-8" y="90" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-181" value="燃烧和蛊毒暂存叠层，在敌人攻击前触发处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-178">
+          <mxGeometry y="120" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-182" value="属性类buff，按生效类型缓存，用到的时候从其中取值计算，算是立刻处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-178">
+          <mxGeometry y="150" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-183" value="其他特殊buff类和属性类的处理类似，都是先缓存，然后在对应时机取出计算处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-178">
+          <mxGeometry y="180" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-184" value="buff总体上的设计是在对应的moment预处理该触发的，而后在合适时机从预处理结果中取值正式触发，&lt;div&gt;只不过属性是预处理结束后立刻触发，其他buff各有其触发时机&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-178">
+          <mxGeometry x="5" y="210" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-187" value="战斗结束，失败了直接结束本关，成功回到stepChange" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1070" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-188" target="YXTXcPzekfWYoKXYRShO-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-188" value="进入游戏，完成地图和玩家实体的初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-191" target="YXTXcPzekfWYoKXYRShO-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-191" target="YXTXcPzekfWYoKXYRShO-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-191" target="YXTXcPzekfWYoKXYRShO-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-191" value="判断下一个房间的类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="340" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-194" value="维持地图奔跑状态&lt;div&gt;其他逻辑由ui界面处理&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-197" target="YXTXcPzekfWYoKXYRShO-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-197" value="进入战斗逻辑，完成boss初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-199" value="run状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-443" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-201" value="完成建筑和npc的生成和入场动画后转站立待机，如果是属性房间和回血房间还有属性值变更" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-203" value="剧情（plot）状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="350" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-204" target="YXTXcPzekfWYoKXYRShO-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-204" value="玩家点击下一个房间的按钮" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-209" target="YXTXcPzekfWYoKXYRShO-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-209" value="进入回合战斗流程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-211" target="YXTXcPzekfWYoKXYRShO-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-211" target="YXTXcPzekfWYoKXYRShO-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-211" value="战斗是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-212" value="退出本关" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-216" value="战斗成功，进入下一个房间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="788" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.156;entryY=0.73;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YXTXcPzekfWYoKXYRShO-216" target="YXTXcPzekfWYoKXYRShO-191">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-620" y="818" />
+              <mxPoint x="-620" y="398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-220" value="整体流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="83" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-222" value="一个小的行动单元（单次攻击）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1430" width="295" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-231" value="1.攻击方提前计算好的伤害量，播放动画和特效，&lt;div&gt;完成表现后执行后续动作和回调&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-222">
+          <mxGeometry y="25" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-232" value="2.被攻击方计算口血量，包括伤害减免，&lt;div&gt;播放血条扣减动画，受击动画，死亡判定和复活判定&lt;/div&gt;&lt;div&gt;飘字表现&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-222">
+          <mxGeometry x="-5" y="57" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-237" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;FrameManager2D：2D玩法的循环驱动&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=42;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="1680" width="190" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-242" value="核心循环，由它来启动执行&lt;div&gt;暂停各个&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap;&quot;&gt;Process类的帧执行方法&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-237">
+          <mxGeometry y="42" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-243" value="&lt;b&gt;FightProcess2DBase：战斗逻辑基类&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=42;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1680" width="195" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-244" value="负责战斗整体的开启暂停，关闭等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-243">
+          <mxGeometry y="42" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-245" value="&lt;b&gt;JLGameFightProcess&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=42;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-485" y="1802" width="190" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-247" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.473;entryY=1.13;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YXTXcPzekfWYoKXYRShO-245" target="YXTXcPzekfWYoKXYRShO-244">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" as="sourcePoint" />
+            <mxPoint x="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-246" value="记录整体玩法的全部资产，&lt;div&gt;包括实体层级，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;地图对象，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;关卡配置，局外属性等&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-245">
+          <mxGeometry y="42" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-249" value="&lt;pre style=&quot;text-align: left; margin-top: 0px; color: rgb(255, 255, 255); background-color: rgb(27, 29, 30);&quot;&gt;&lt;b&gt;FightManager2D&lt;/b&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1680" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-250" value="战斗管理器，procrss的启动器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-249">
+          <mxGeometry y="30" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-252" value="&lt;pre style=&quot;text-align: left; margin-top: 0px; color: rgb(255, 255, 255); background-color: rgb(27, 29, 30);&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-weight: 700; text-align: center; white-space: normal;&quot;&gt;JLGameFightMap&lt;/span&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1802" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-253" value="地图对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-252">
+          <mxGeometry y="30" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-254" value="&lt;pre style=&quot;text-align: left; margin-top: 0px; color: rgb(255, 255, 255); background-color: rgb(27, 29, 30);&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-weight: 700; text-align: center; white-space: normal;&quot;&gt;JLGameFightUtilManager&lt;/span&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-737" y="1802" width="237" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-255" value="战斗辅助管理器，记录战斗状态的变更&lt;div&gt;全部的计算包括属性计算，buff处理等&lt;/div&gt;&lt;div&gt;步骤状态管理和玩家与boss实体的实际持有者&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-254">
+          <mxGeometry y="30" width="237" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-256" value="&lt;pre style=&quot;text-align: left; margin-top: 0px; color: rgb(255, 255, 255); background-color: rgb(27, 29, 30);&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-weight: 700; text-align: center; white-space: normal;&quot;&gt;JLGameFightBaseEntity&lt;/span&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-716" y="1942" width="198" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-257" value="玩家和boss实体基类，&lt;div&gt;spine的生成和销毁和特效管理器&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-256">
+          <mxGeometry y="30" width="198" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-258" value="&lt;pre style=&quot;text-align: left; margin-top: 0px; color: rgb(255, 255, 255); background-color: rgb(27, 29, 30);&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-weight: 700; text-align: center; white-space: normal;&quot;&gt;JLGameFightPlayerEntity&lt;/span&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-714.5" y="2052" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-260" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.476;entryY=1.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YXTXcPzekfWYoKXYRShO-258" target="YXTXcPzekfWYoKXYRShO-257">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="94.5" as="sourcePoint" />
+            <mxPoint x="254.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-259" value="玩家实体" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-258">
+          <mxGeometry y="30" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-261" value="&lt;pre style=&quot;text-align: left; margin-top: 0px; color: rgb(255, 255, 255); background-color: rgb(27, 29, 30);&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-weight: 700; text-align: center; white-space: normal;&quot;&gt;JLGameFightBossEntity&lt;/span&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="2052" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-262" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="YXTXcPzekfWYoKXYRShO-261" target="YXTXcPzekfWYoKXYRShO-256">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="94.5" as="sourcePoint" />
+            <mxPoint x="254.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-263" value="boos&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;实体&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-261">
+          <mxGeometry y="30" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-264" value="&lt;b&gt;FlyText2DManager&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=42;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1680" width="190" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="YXTXcPzekfWYoKXYRShO-265" value="飘字管理类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YXTXcPzekfWYoKXYRShO-264">
+          <mxGeometry y="42" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
