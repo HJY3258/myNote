@@ -1,0 +1,470 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="第 1 页" id="pjLwd79JO3seO971uKdJ">
+    <mxGraphModel dx="1240" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="920" width="1640" x="14" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="EntityManager" vertex="1">
+          <mxGeometry height="150" width="160" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-2" parent="g1a14quZqmRWACnG1ZlP-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+实体管理类： 处理实体生成和销毁以及服务器下推的实体数据管理&lt;div&gt;+addEntity() 添加实体&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;getEntityClass() 通过类型获取对应实体类&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-4" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="FightController" vertex="1">
+          <mxGeometry height="120" width="160" x="210" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-5" parent="g1a14quZqmRWACnG1ZlP-4" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+处理服务器的消息同步以及其他战斗相关的事件处理&lt;div&gt;+下推实体生成，技能使用等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-7" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="FightManager" vertex="1">
+          <mxGeometry height="120" width="160" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-8" parent="g1a14quZqmRWACnG1ZlP-7" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+战斗表现类 生成对应技能表现对象来做战斗表现" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-9" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="HatredManager" vertex="1">
+          <mxGeometry height="120" width="160" x="590" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-10" parent="g1a14quZqmRWACnG1ZlP-9" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+仇恨管理器 记录仇恨对象，即他人与我之间的仇恨关系和我与野怪之间的仇恨关系" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-15" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="MapManager" vertex="1">
+          <mxGeometry height="130" width="160" x="20" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-16" parent="g1a14quZqmRWACnG1ZlP-15" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+场景管理器，与layermanager的地位有点类似负责3d场景的节点管理&lt;div&gt;+负责地图加载，寻路方格管理等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-17" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="EffectManager" vertex="1">
+          <mxGeometry height="120" width="160" x="400" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-18" parent="g1a14quZqmRWACnG1ZlP-17" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+特效管理器&lt;div&gt;+主要是技能特效&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-19" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="MapObjectManager" vertex="1">
+          <mxGeometry height="130" width="160" x="210" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="g1a14quZqmRWACnG1ZlP-20" parent="g1a14quZqmRWACnG1ZlP-19" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+场景上动态加载的对象管理如场景特效&lt;div&gt;+主要是场景中的特效以及其他场景模型比如石头，建筑等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CbdsLDJBaOBVkP7Yk-YW-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="SceneBubbleManager" vertex="1">
+          <mxGeometry height="120" width="160" x="590" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="CbdsLDJBaOBVkP7Yk-YW-2" parent="CbdsLDJBaOBVkP7Yk-YW-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+场景里对象 的冒泡管理器&lt;div&gt;+主要是技能特效&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="CameraMgr" vertex="1">
+          <mxGeometry height="120" width="160" x="20" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-2" parent="HOYPWM4mf9NAzkH4cEhY-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+摄像机管理器&lt;div&gt;+处理摄像机跟随，摄像机抖动等表现，判断某个3d点是否在相机内等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1;fontSize=22;" value="模型实体" vertex="1">
+          <mxGeometry height="40" width="110" x="13" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.909;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" target="HOYPWM4mf9NAzkH4cEhY-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="19" y="595" as="sourcePoint" />
+            <mxPoint x="91" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-12" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="DisposeObj" vertex="1">
+          <mxGeometry height="110" width="160" x="740" y="585" as="geometry">
+            <mxRectangle height="50" width="110" x="300" y="600" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-13" parent="HOYPWM4mf9NAzkH4cEhY-12" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+宇宙的起点，大量对象继承这个，为了参与通用的对象池机制" vertex="1">
+          <mxGeometry height="60" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-14" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="BaseEntity" vertex="1">
+          <mxGeometry height="120" width="380" x="300" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-15" parent="HOYPWM4mf9NAzkH4cEhY-14" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+场景实体基类&lt;div&gt;+通用方法比如初始化数据，销毁，节点控制，坐标变动，旋转缩放等自身操作，模型，特效等资源的生成和销毁，模型动作控制和实体状态控制等状态处理&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="380" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-16" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-14" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-13" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="410" y="430" as="sourcePoint" />
+            <mxPoint x="570" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-17" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="GameObj" vertex="1">
+          <mxGeometry height="120" width="316" x="1010" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-18" parent="HOYPWM4mf9NAzkH4cEhY-17" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+基础的实体部件，法宝和七星，五行等挂件实体会继承&lt;div&gt;+3d变换，模型加载设置节点&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="316" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-20" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-17" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-13" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="250" y="750" as="sourcePoint" />
+            <mxPoint x="420" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-21" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AnimatorObj" vertex="1">
+          <mxGeometry height="100" width="150" x="1010" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-22" parent="HOYPWM4mf9NAzkH4cEhY-21" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+带Animator的实体部件&lt;div&gt;+增加动作播放系统&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-25" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-21" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-18" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="688" y="750" as="sourcePoint" />
+            <mxPoint x="490" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-26" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="FaBaoObj" vertex="1">
+          <mxGeometry height="100" width="150" x="1190" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-27" parent="HOYPWM4mf9NAzkH4cEhY-26" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+法宝的物体，会自行旋转" vertex="1">
+          <mxGeometry height="50" width="150" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-28" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-26" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-18" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="590" y="930" as="sourcePoint" />
+            <mxPoint x="673" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-29" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="SevenStarObj" vertex="1">
+          <mxGeometry height="100" width="218" x="1362" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-30" parent="HOYPWM4mf9NAzkH4cEhY-29" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+七星物体，由一个星状物体和一个背景星云组成，星状物体使用当前GameObj，星云使用单独的GameObj" vertex="1">
+          <mxGeometry height="50" width="218" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-31" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-29" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-18" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1302" y="930" as="sourcePoint" />
+            <mxPoint x="1340" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-32" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="MoveableEntity" vertex="1">
+          <mxGeometry height="130" width="215" x="220" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-33" parent="HOYPWM4mf9NAzkH4cEhY-32" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+可移动的实体， 主要处理移动相关的逻辑&lt;div&gt;+这一层开始接入ai和寻路，主要处理寻路及其2带来的各种边界问题，比如坐标重叠等，ai和实体互相持有&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="215" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-34" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-32" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-15" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="890" y="920" as="sourcePoint" />
+            <mxPoint x="973" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-35" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="TweenEntity/InsectEntity/CollectEntity" vertex="1">
+          <mxGeometry height="130" width="240" x="550" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-36" parent="HOYPWM4mf9NAzkH4cEhY-35" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+采集物，缓动实体和仙树虫子等，还有个墓碑怪不知道是用在哪里的" vertex="1">
+          <mxGeometry height="80" width="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-37" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-35" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-15" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="390" y="910" as="sourcePoint" />
+            <mxPoint x="657" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-38" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="BossEntity" vertex="1">
+          <mxGeometry height="100" width="140" x="20" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-39" parent="HOYPWM4mf9NAzkH4cEhY-38" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+Boss 实体，没有AI的&lt;div&gt;+死亡表现&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-40" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-38" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.107;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="HOYPWM4mf9NAzkH4cEhY-33" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="440" y="910" as="sourcePoint" />
+            <mxPoint x="602" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-41" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="ClientEntityIdUtil" vertex="1">
+          <mxGeometry height="120" width="160" x="860" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-42" parent="HOYPWM4mf9NAzkH4cEhY-41" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+客户端自管理的实体ID工具" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-43" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="DropEntity" vertex="1">
+          <mxGeometry height="110" width="210" x="565" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-44" parent="HOYPWM4mf9NAzkH4cEhY-43" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+战利品掉落物，继承&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;TweenEntity&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-45" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-43" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-36" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="970" y="940" as="sourcePoint" />
+            <mxPoint x="660" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-46" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="PlayerEntity" vertex="1">
+          <mxGeometry height="120" width="140" x="190" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-47" parent="HOYPWM4mf9NAzkH4cEhY-46" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+角色实体&lt;div&gt;+天神变身表现，角色模型，法宝，坐骑等外显资源加载以及挂载&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-48" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-46" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-33" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="210" y="1090" as="sourcePoint" />
+            <mxPoint x="448" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-50" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="PetEntity" vertex="1">
+          <mxGeometry height="100" width="140" x="360" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-51" parent="HOYPWM4mf9NAzkH4cEhY-50" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;宠物实体&lt;/span&gt;&lt;div&gt;&lt;div&gt;+跟随角色，有战斗表现&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-52" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-50" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-33" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="1080" as="sourcePoint" />
+            <mxPoint x="294" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-53" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="MoveableEntity" vertex="1">
+          <mxGeometry height="120" width="140" x="20" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-54" parent="HOYPWM4mf9NAzkH4cEhY-53" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+Monster实体&lt;div&gt;&lt;div&gt;+主要用于小怪，服务器控制，没有ai，死亡击飞，出生表现&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-55" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-53" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-39" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="170" y="1087" as="sourcePoint" />
+            <mxPoint x="323" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-56" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="WildMonsterEntity" vertex="1">
+          <mxGeometry height="100" width="140" x="20" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-57" parent="HOYPWM4mf9NAzkH4cEhY-56" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+野外怪物实体" vertex="1">
+          <mxGeometry height="50" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-58" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-56" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-53" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="1230" as="sourcePoint" />
+            <mxPoint x="120" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-61" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="WildMonsterManager" vertex="1">
+          <mxGeometry height="120" width="160" x="210" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-62" parent="HOYPWM4mf9NAzkH4cEhY-61" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+野外怪物管理器&lt;div&gt;+主要处理野外刷怪的&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-65" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="KingPlayerEntity" vertex="1">
+          <mxGeometry height="120" width="140" x="190" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-66" parent="HOYPWM4mf9NAzkH4cEhY-65" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+主角的实体&lt;div&gt;+主要是ai调控&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-68" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-65" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-47" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="1090" as="sourcePoint" />
+            <mxPoint x="294" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-69" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="KingPetEntity" vertex="1">
+          <mxGeometry height="120" width="140" x="360" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-70" parent="HOYPWM4mf9NAzkH4cEhY-69" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+主角宠物实体&lt;div&gt;+有ai，其他宠物没有ai&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-71" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-69" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.447;entryY=1.049;entryDx=0;entryDy=0;entryPerimeter=0;" target="HOYPWM4mf9NAzkH4cEhY-51" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="1250" as="sourcePoint" />
+            <mxPoint x="280" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="920" width="1640" x="11" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1;fontSize=22;" value="ai逻辑" vertex="1">
+          <mxGeometry height="40" width="80" x="35" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-74" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.909;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" target="HOYPWM4mf9NAzkH4cEhY-73" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="32" y="1555" as="sourcePoint" />
+            <mxPoint x="104" y="1555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-77" edge="1" parent="1" source="HOYPWM4mf9NAzkH4cEhY-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="HOYPWM4mf9NAzkH4cEhY-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="1210" />
+              <mxPoint x="530" y="1210" />
+              <mxPoint x="530" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-78" connectable="0" parent="HOYPWM4mf9NAzkH4cEhY-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="关联" vertex="1">
+          <mxGeometry relative="1" x="0.778" y="-5" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-75" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="NavMeshAgent" vertex="1">
+          <mxGeometry height="120" width="140" x="590" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-76" parent="HOYPWM4mf9NAzkH4cEhY-75" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+寻路代理&lt;div&gt;+很复杂&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HOYPWM4mf9NAzkH4cEhY-80" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;font&gt;继承AIUnitBase一套的类是基础ai单元，负责单个行动ai比如 （杀死目标行为），继承AIProcessBase一套的类是多个ai单元组成的实体行为ai逻辑&lt;/font&gt;&lt;div&gt;&lt;font&gt;最后继承BaseFightProcess一套的类是控制多个实体及其&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AIProcessBase来完成副本或者一场战斗表现的类&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;大概就是类似unit-&amp;gt;process-&amp;gt;fightprocess这样的三层结构&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="1080" x="140" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIUnitBase" vertex="1">
+          <mxGeometry height="120" width="140" x="174" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-2" parent="aPGXfKUecodFcZ_4IUqw-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+AI 基础单元&lt;div&gt;+ai单元的启动，停止，执行，循环判断等基础框架&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIUnitMove" vertex="1">
+          <mxGeometry height="120" width="140" x="23" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-4" parent="aPGXfKUecodFcZ_4IUqw-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+寻路的AI，寻路到某个点&lt;div&gt;+调用对象的moveTo并循环检查是否会卡住&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-5" edge="1" parent="1" source="aPGXfKUecodFcZ_4IUqw-3" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="aPGXfKUecodFcZ_4IUqw-2" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="178" y="1780" as="sourcePoint" />
+            <mxPoint x="178" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-6" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIUnitKillTarget" vertex="1">
+          <mxGeometry height="120" width="140" x="176" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-7" parent="aPGXfKUecodFcZ_4IUqw-6" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+杀怪AI单元，仅执行杀怪，不处理寻路&lt;div&gt;+使用技能攻击目标，循环检查是否击杀目标&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-8" edge="1" parent="1" source="aPGXfKUecodFcZ_4IUqw-6" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="aPGXfKUecodFcZ_4IUqw-2" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="198" y="1840" as="sourcePoint" />
+            <mxPoint x="333" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-9" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIUnitAttackOnce" vertex="1">
+          <mxGeometry height="120" width="140" x="330" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-10" parent="aPGXfKUecodFcZ_4IUqw-9" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+AI攻击单元，单次攻击， 一般用于客户端的怪物AI攻击" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-11" edge="1" parent="1" source="aPGXfKUecodFcZ_4IUqw-9" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="aPGXfKUecodFcZ_4IUqw-2" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="428" y="1830" as="sourcePoint" />
+            <mxPoint x="368" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="另外还有一些其他的寻路和攻击的变种不在此表现" vertex="1">
+          <mxGeometry height="30" width="300" x="108" y="1955" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-13" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIProcessBase" vertex="1">
+          <mxGeometry height="120" width="140" x="659" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-14" parent="aPGXfKUecodFcZ_4IUqw-13" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+AI逻辑处理&lt;div&gt;+提供对ai单元的调用接口&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-15" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIProcessKingPlayer" vertex="1">
+          <mxGeometry height="120" width="140" x="506" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-16" parent="aPGXfKUecodFcZ_4IUqw-15" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+主角的A&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;I&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+索敌，移动，击杀一整套流程，通过玩家实体调用&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-17" edge="1" parent="1" source="aPGXfKUecodFcZ_4IUqw-15" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="aPGXfKUecodFcZ_4IUqw-14" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="737.5" y="1810" as="sourcePoint" />
+            <mxPoint x="602.5" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-18" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIProcessMonster" vertex="1">
+          <mxGeometry height="120" width="140" x="661" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-19" parent="aPGXfKUecodFcZ_4IUqw-18" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+怪物AI&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+只有巡逻逻辑，巡逻的时候怎么和服务器同步位置这个还没看出来&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-20" edge="1" parent="1" source="aPGXfKUecodFcZ_4IUqw-18" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="aPGXfKUecodFcZ_4IUqw-14" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="720" y="1850" as="sourcePoint" />
+            <mxPoint x="850" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-21" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIProcessPet" vertex="1">
+          <mxGeometry height="120" width="140" x="818" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="aPGXfKUecodFcZ_4IUqw-22" parent="aPGXfKUecodFcZ_4IUqw-21" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+宠物的通用AI&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;追随主人移动，支持攻击播放，但不会自动触发攻击&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-1" edge="1" parent="1" source="aPGXfKUecodFcZ_4IUqw-21" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="aPGXfKUecodFcZ_4IUqw-14" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="810" y="1860" as="sourcePoint" />
+            <mxPoint x="810" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-2" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIProcessKingPet" vertex="1">
+          <mxGeometry height="120" width="140" x="821" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-3" parent="NrktPaHlzSkP6euk4Bus-2" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+主角的宠物&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;会自动进行攻击&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-4" edge="1" parent="1" source="NrktPaHlzSkP6euk4Bus-2" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="aPGXfKUecodFcZ_4IUqw-22" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1070" y="1860" as="sourcePoint" />
+            <mxPoint x="900" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-5" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIProcessKingPlayer&lt;div&gt;Patrol&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="140" x="365" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-6" parent="NrktPaHlzSkP6euk4Bus-5" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+主角的AI巡逻&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+随机方向巡逻&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-7" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIProcessKingPlayer&lt;div&gt;Patrol2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="140" x="510" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-8" parent="NrktPaHlzSkP6euk4Bus-7" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+主角的定点AI巡逻&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+开始的时候固定一个中心点，在这个中心点的半径范围内巡逻&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-9" edge="1" parent="1" source="NrktPaHlzSkP6euk4Bus-7" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="aPGXfKUecodFcZ_4IUqw-16" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="993" y="2020" as="sourcePoint" />
+            <mxPoint x="990" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-10" edge="1" parent="1" source="NrktPaHlzSkP6euk4Bus-5" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.443;entryY=0.957;entryDx=0;entryDy=0;entryPerimeter=0;" target="aPGXfKUecodFcZ_4IUqw-16" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="720" y="2050" as="sourcePoint" />
+            <mxPoint x="630" y="1970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-11" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AIProcessWildMonster" vertex="1">
+          <mxGeometry height="120" width="140" x="665" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-12" parent="NrktPaHlzSkP6euk4Bus-11" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+野外怪的AI&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;除了在附近点巡逻，还会攻击主角&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-13" edge="1" parent="1" source="NrktPaHlzSkP6euk4Bus-11" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="aPGXfKUecodFcZ_4IUqw-19" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="953" y="2030" as="sourcePoint" />
+            <mxPoint x="950" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="怪物ai由服务器下推攻击，野怪由客户端控制攻击" vertex="1">
+          <mxGeometry height="50" width="150" x="665" y="2113" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-15" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="BaseFightProcess" vertex="1">
+          <mxGeometry height="120" width="290" x="1201" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-16" parent="NrktPaHlzSkP6euk4Bus-15" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+战斗逻辑基类，主要封装一些通用的逻辑，具体的战斗逻辑在子类中实现&lt;div&gt;+提供开始中断结束循环等框架接口&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="290" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-18" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;待探索的问题&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;1.怪物巡逻的时候怎么和后端同步怪物坐标&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="220" width="660" x="940" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-19" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="KillTargetFightProcess" vertex="1">
+          <mxGeometry height="120" width="140" x="991" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-20" parent="NrktPaHlzSkP6euk4Bus-19" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+宠物的通用AI&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;追随主人移动，支持攻击播放，但不会自动触发攻击&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NrktPaHlzSkP6euk4Bus-21" edge="1" parent="1" source="NrktPaHlzSkP6euk4Bus-19" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="NrktPaHlzSkP6euk4Bus-16" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="933" y="2020" as="sourcePoint" />
+            <mxPoint x="930" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
