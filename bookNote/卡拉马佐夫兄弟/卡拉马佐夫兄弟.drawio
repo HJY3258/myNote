@@ -1,0 +1,283 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="人物关系" id="jQ6VT5gVrdYlN5FAZ25y">
+    <mxGraphModel dx="1935" dy="1173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x_Lso5muaHocFLSPd53c-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="费奥多尔·巴甫洛维奇·卡拉马佐夫&lt;div&gt;（地主）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="200" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="阿列克塞·费奥多罗维奇·卡拉马佐夫&lt;div&gt;（阿辽沙）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="380" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-3" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x_Lso5muaHocFLSPd53c-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="680" as="sourcePoint" />
+            <mxPoint x="470" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-4" connectable="0" parent="x_Lso5muaHocFLSPd53c-3" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="父子关系" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-5" connectable="0" parent="x_Lso5muaHocFLSPd53c-3" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="父亲" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-6" connectable="0" parent="x_Lso5muaHocFLSPd53c-3" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="三儿子" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;德米特里·费奥多罗维奇&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;·卡拉马佐夫&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（米嘉）&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="40" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-8" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x_Lso5muaHocFLSPd53c-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="700" as="sourcePoint" />
+            <mxPoint x="510" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-9" connectable="0" parent="x_Lso5muaHocFLSPd53c-8" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="父子关系" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-10" connectable="0" parent="x_Lso5muaHocFLSPd53c-8" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="父亲" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-11" connectable="0" parent="x_Lso5muaHocFLSPd53c-8" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="大儿子" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;伊万·费奥多罗维奇&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;·卡拉马佐夫&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;阴郁怪癖，性格内向&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="210" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="阿黛拉伊达·伊万诺夫娜·米乌索娃&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="-80" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-14" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="x_Lso5muaHocFLSPd53c-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="720" as="sourcePoint" />
+            <mxPoint x="130" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-15" connectable="0" parent="x_Lso5muaHocFLSPd53c-14" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="夫妻（私奔）" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-16" connectable="0" parent="x_Lso5muaHocFLSPd53c-14" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="丈夫" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-17" connectable="0" parent="x_Lso5muaHocFLSPd53c-14" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="前妻" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-18" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-13" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x_Lso5muaHocFLSPd53c-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="670" as="sourcePoint" />
+            <mxPoint x="120" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-19" connectable="0" parent="x_Lso5muaHocFLSPd53c-18" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="母子" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-20" connectable="0" parent="x_Lso5muaHocFLSPd53c-18" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="母亲" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="20" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-21" connectable="0" parent="x_Lso5muaHocFLSPd53c-18" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="大儿子" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-23" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="生平：私奔，嫁给地主，家族被迫承认给嫁妆，和丈夫打架，后和贫穷的师范学生私奔，最后跳崖死了" vertex="1">
+          <mxGeometry height="90" width="130" x="-85" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-24" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x_Lso5muaHocFLSPd53c-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;格里果利&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="-180" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-26" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-25" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.032;entryY=0.509;entryDx=0;entryDy=0;entryPerimeter=0;" target="x_Lso5muaHocFLSPd53c-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="710" as="sourcePoint" />
+            <mxPoint x="180" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-27" connectable="0" parent="x_Lso5muaHocFLSPd53c-26" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="主仆" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-28" connectable="0" parent="x_Lso5muaHocFLSPd53c-26" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="仆人" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-29" connectable="0" parent="x_Lso5muaHocFLSPd53c-26" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="养大" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="彼得·亚历山德罗维奇·米乌索夫" vertex="1">
+          <mxGeometry height="100" width="120" x="-280" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-31" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-30" style="endArrow=classic;html=1;rounded=0;exitX=0.958;exitY=0.49;exitDx=0;exitDy=0;entryX=0.023;entryY=0.559;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="x_Lso5muaHocFLSPd53c-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="680" as="sourcePoint" />
+            <mxPoint x="140" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-32" connectable="0" parent="x_Lso5muaHocFLSPd53c-31" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="兄妹" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-33" connectable="0" parent="x_Lso5muaHocFLSPd53c-31" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="堂兄" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="5" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-34" connectable="0" parent="x_Lso5muaHocFLSPd53c-31" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="堂妹" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="索菲娅·伊万诺夫娜&lt;div&gt;温顺，顺从&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="450" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-37" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-1" style="endArrow=classic;html=1;rounded=0;exitX=1.004;exitY=0.539;exitDx=0;exitDy=0;entryX=0.03;entryY=0.544;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="x_Lso5muaHocFLSPd53c-36" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="690" as="sourcePoint" />
+            <mxPoint x="490" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-38" connectable="0" parent="x_Lso5muaHocFLSPd53c-37" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="夫妻" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-39" connectable="0" parent="x_Lso5muaHocFLSPd53c-37" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="丈夫" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-40" connectable="0" parent="x_Lso5muaHocFLSPd53c-37" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="第二任妻子" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-41" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-36" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.489;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" target="x_Lso5muaHocFLSPd53c-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="680" as="sourcePoint" />
+            <mxPoint x="480" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-42" connectable="0" parent="x_Lso5muaHocFLSPd53c-41" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="母子" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-43" connectable="0" parent="x_Lso5muaHocFLSPd53c-41" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="母亲" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-45" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x_Lso5muaHocFLSPd53c-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="510" y="640" as="sourcePoint" />
+            <mxPoint x="490" y="784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-46" connectable="0" parent="x_Lso5muaHocFLSPd53c-45" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="母子" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-47" connectable="0" parent="x_Lso5muaHocFLSPd53c-45" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="母亲" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-48" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x_Lso5muaHocFLSPd53c-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="690" as="sourcePoint" />
+            <mxPoint x="470" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-49" connectable="0" parent="x_Lso5muaHocFLSPd53c-48" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="父子关系" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-50" connectable="0" parent="x_Lso5muaHocFLSPd53c-48" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="父亲" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-51" connectable="0" parent="x_Lso5muaHocFLSPd53c-48" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="二儿子" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="佐西马&lt;div&gt;（修道院院长 /长老）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="600" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="彼得·福米奇·卡尔甘诺夫" vertex="1">
+          <mxGeometry height="100" width="130" x="-285" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-54" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-30" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x_Lso5muaHocFLSPd53c-53" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="600" as="sourcePoint" />
+            <mxPoint x="-52" y="607" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-55" connectable="0" parent="x_Lso5muaHocFLSPd53c-54" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="远亲" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-59" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.451;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;" target="x_Lso5muaHocFLSPd53c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-62" connectable="0" parent="x_Lso5muaHocFLSPd53c-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="朋友" vertex="1">
+          <mxGeometry relative="1" x="-0.2485" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="马克西莫夫&lt;div&gt;（外省的地主）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="130" x="-560" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="赫拉科娃太太&lt;div&gt;叶卡杰丽娜·奥西波夫娜&lt;br&gt;&lt;div&gt;（地主）&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="490" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="莉兹&lt;div&gt;（坐轮椅）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="250" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-66" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-64" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="x_Lso5muaHocFLSPd53c-65" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="531" y="730" as="sourcePoint" />
+            <mxPoint x="460" y="854" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-67" connectable="0" parent="x_Lso5muaHocFLSPd53c-66" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="母女" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-68" connectable="0" parent="x_Lso5muaHocFLSPd53c-66" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="母亲" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="-30" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="卡捷琳娜·伊万诺夫娜" vertex="1">
+          <mxGeometry height="100" width="120" x="-80" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-72" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-71" style="endArrow=classic;html=1;rounded=0;exitX=0.514;exitY=-0.047;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" target="x_Lso5muaHocFLSPd53c-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="840" as="sourcePoint" />
+            <mxPoint x="126" y="841" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-74" connectable="0" parent="x_Lso5muaHocFLSPd53c-72" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="未婚妻" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="8" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_Lso5muaHocFLSPd53c-75" connectable="0" parent="x_Lso5muaHocFLSPd53c-72" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="未婚夫" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="-10" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vl8FM4IUUOmiTimmRR1s-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;黎萨维塔·斯乜尔加夏娅&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;（乞丐，澡堂生子）&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="130" x="-560" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Vl8FM4IUUOmiTimmRR1s-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;帕维尔·&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;费奥多罗维奇·&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;斯乜尔加科夫&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="130" x="-560" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Vl8FM4IUUOmiTimmRR1s-4" edge="1" parent="1" source="Vl8FM4IUUOmiTimmRR1s-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Vl8FM4IUUOmiTimmRR1s-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-230" y="730" as="sourcePoint" />
+            <mxPoint x="-230" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vl8FM4IUUOmiTimmRR1s-5" connectable="0" parent="Vl8FM4IUUOmiTimmRR1s-4" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="母子" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
