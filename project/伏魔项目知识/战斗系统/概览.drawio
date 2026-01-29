@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0" pages="2">
   <diagram name="结构" id="pjLwd79JO3seO971uKdJ">
-    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -452,8 +452,8 @@
         <mxCell id="NrktPaHlzSkP6euk4Bus-16" parent="NrktPaHlzSkP6euk4Bus-15" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+战斗逻辑基类，主要封装一些通用的逻辑，具体的战斗逻辑在子类中实现&lt;div&gt;+提供开始中断结束循环等框架接口&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="290" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="NrktPaHlzSkP6euk4Bus-18" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;待探索的问题&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;color: rgb(0, 204, 0);&quot;&gt;1.怪物巡逻的时候怎么和后端同步怪物坐标&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(0, 204, 0);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;答：服务器有一套坐标同步移动的逻辑&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="220" width="660" x="940" y="270" as="geometry" />
+        <mxCell id="NrktPaHlzSkP6euk4Bus-18" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;问题&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;1.怪物巡逻的时候怎么和后端同步怪物坐标，客户端是用寻路来控制角色移动的，服务器怎么同步位置&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;答：服务器有一套坐标同步移动的逻辑&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(0, 204, 0);&quot;&gt;2.战斗攻击流程的目标永远只有targetid，如果是范围伤害的技能波及到其他实体怎么处理&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;color: rgb(0, 204, 0);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;答：在计算伤害缓存战报的时候会遍历该技能涉及到的所有实体然后缓存进战报中，后续技能表现类里统一处理&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="220" width="660" x="70" y="3110" as="geometry" />
         </mxCell>
         <mxCell id="NrktPaHlzSkP6euk4Bus-19" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="KillTargetFightProcess" vertex="1">
           <mxGeometry height="130" width="140" x="970" y="1830" as="geometry" />
@@ -740,11 +740,14 @@
         <mxCell id="RdCaY-JbyOGsET_Odxpw-2" parent="RdCaY-JbyOGsET_Odxpw-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+伤害计算工具类，一般是客户端模拟计算伤害值用的" vertex="1">
           <mxGeometry height="70" width="160" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="1e3kPy_mSe3ucIPZgn_J-1" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;AIUnitBase：由上层启动之后有个每帧执行的循环，最后结束之后停止循环调回调通知上层销毁，生命周期为init()-&amp;gt;start()-&amp;gt;doStart-&amp;gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;onLoop()-&amp;gt;checkIsDone()&lt;/font&gt;-&amp;gt;onDone()-&amp;gt;stop()-&amp;gt;dispose()，红色部分为每帧调用的循环部分&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;AIProcessBase：在实体生成的时候创建，然后和实体双向持有引用，定义实体行为再由外部调用行为，实际大部分行为都是生成一个逻辑单元然后启动它&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;BaseFightProcess：副本启动或挂机启动的时候由&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;FightManager创建，后退出副本时会停止战斗并销毁。生命周期大概为&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;init()-&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;start()-&amp;gt;&lt;/span&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;loop()-&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;onLoop()-&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;checkToFight()-&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;checkToFightTarget()-&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;startFightTarget()-&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;doFightTarget()&lt;/font&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;onFightTargetEnd()-&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;dispose()，红色部分循环执行，另外有暂停重启等状态就不说了&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="247" width="910" x="40" y="2163" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="f6c8YmDf6eUVW0oe_ZnX" name="第 2 页">
-    <mxGraphModel dx="983" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1358" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1003,11 +1006,55 @@
         <mxCell id="8eLmViMefcnPezI0alkD-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;delayShowHurt&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;用攻击id从伤害缓存中取出伤害值做表现&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="67" width="110" x="1730" y="2338" as="geometry" />
         </mxCell>
-        <mxCell id="8eLmViMefcnPezI0alkD-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;onDoEntityHurt&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;真正的伤害处理&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="67" width="110" x="1920" y="2371" as="geometry" />
+        <mxCell id="lhtKbwNg4CupcyEEV42C-2" edge="1" parent="1" source="8eLmViMefcnPezI0alkD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="lhtKbwNg4CupcyEEV42C-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8eLmViMefcnPezI0alkD-9" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="FightPlayManager" vertex="1">
+        <mxCell id="lhtKbwNg4CupcyEEV42C-3" connectable="0" parent="lhtKbwNg4CupcyEEV42C-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="EventName.KillTargetComplete" vertex="1">
+          <mxGeometry relative="1" x="0.1948" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8eLmViMefcnPezI0alkD-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;onDoEntityHurt&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;真正的伤害处理&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;显示伤害飘字，触发血条刷新&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;触发击杀目标完成事件通知&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WildCopyController检查并刷新挂机小怪&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="119" width="110" x="1920" y="2371" as="geometry" />
+        </mxCell>
+        <mxCell id="8eLmViMefcnPezI0alkD-9" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="FightController" vertex="1">
           <mxGeometry height="50" width="110" x="1920" y="2235.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aDBbk0efwTaJwBn-7F-A-3" edge="1" parent="1" source="lhtKbwNg4CupcyEEV42C-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="aDBbk0efwTaJwBn-7F-A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aDBbk0efwTaJwBn-7F-A-4" connectable="0" parent="aDBbk0efwTaJwBn-7F-A-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="回调" vertex="1">
+          <mxGeometry relative="1" x="-0.0154" y="5" as="geometry">
+            <mxPoint x="5" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lhtKbwNg4CupcyEEV42C-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="onKillTargetComplete&lt;div&gt;设置标志isKillComplete=false&lt;/div&gt;&lt;div&gt;，下一帧进onloop的时候checkIsDone为true，直接进&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;onDone然后回调&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="106" width="110" x="1360" y="2436" as="geometry" />
+        </mxCell>
+        <mxCell id="aDBbk0efwTaJwBn-7F-A-6" edge="1" parent="1" source="aDBbk0efwTaJwBn-7F-A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="aDBbk0efwTaJwBn-7F-A-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aDBbk0efwTaJwBn-7F-A-7" connectable="0" parent="aDBbk0efwTaJwBn-7F-A-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="EventName.FightTargetEnd" vertex="1">
+          <mxGeometry relative="1" x="0.0465" y="-2" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aDBbk0efwTaJwBn-7F-A-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="onKillTargetEnd&lt;div&gt;重置状态，为下一个实体行为做准备&lt;/div&gt;&lt;div&gt;派发FightTargetEnd事件，同一时间只会有一个战斗逻辑在运行，所以认为是通知当前的战斗逻辑进行下一步&lt;/div&gt;" vertex="1">
+          <mxGeometry height="132" width="110" x="1186" y="2483" as="geometry" />
+        </mxCell>
+        <mxCell id="aDBbk0efwTaJwBn-7F-A-8" edge="1" parent="1" source="aDBbk0efwTaJwBn-7F-A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="APXHGbyGJF9H563SJMcl-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="2583" />
+              <mxPoint x="760" y="884" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aDBbk0efwTaJwBn-7F-A-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="onFightTargetEnd&lt;div&gt;标记目标战斗完成，此后onloop中的判断通过，会继续执行checkToFight函数&lt;/div&gt;" vertex="1">
+          <mxGeometry height="132" width="110" x="810" y="2550" as="geometry" />
+        </mxCell>
+        <mxCell id="aDBbk0efwTaJwBn-7F-A-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="细分区域，1.技能使用，技能表现细节，实体的生成和销毁的生命周期，挂机刷怪逻辑。寻路逻辑，伤害飘字" vertex="1">
+          <mxGeometry height="30" width="600" x="15" y="2780" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
