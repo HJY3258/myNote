@@ -747,7 +747,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="f6c8YmDf6eUVW0oe_ZnX" name="第 2 页">
-    <mxGraphModel dx="1358" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1055,6 +1055,18 @@
         </mxCell>
         <mxCell id="aDBbk0efwTaJwBn-7F-A-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="细分区域，1.技能使用，技能表现细节，实体的生成和销毁的生命周期，挂机刷怪逻辑。寻路逻辑，伤害飘字" vertex="1">
           <mxGeometry height="30" width="600" x="15" y="2780" as="geometry" />
+        </mxCell>
+        <mxCell id="TedeQAFJDexOG_dz6AL2-1" parent="1" style="whiteSpace=wrap;html=1;" value="挂机场景主角使用技能" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="2870" as="geometry" />
+        </mxCell>
+        <mxCell id="TedeQAFJDexOG_dz6AL2-3" parent="1" style="whiteSpace=wrap;html=1;" value="副本内主角主动使用技能" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="2870" as="geometry" />
+        </mxCell>
+        <mxCell id="TedeQAFJDexOG_dz6AL2-4" parent="1" style="whiteSpace=wrap;html=1;" value="其他角色由服务器直接下推技能使用的表现" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="2870" as="geometry" />
+        </mxCell>
+        <mxCell id="TedeQAFJDexOG_dz6AL2-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontSize=15;" value="进入游戏后的挂机场景战斗流程" vertex="1">
+          <mxGeometry height="30" width="230" x="20" y="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
