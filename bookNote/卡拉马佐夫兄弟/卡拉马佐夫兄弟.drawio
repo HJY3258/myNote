@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="人物关系" id="jQ6VT5gVrdYlN5FAZ25y">
-    <mxGraphModel dx="1935" dy="1173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3047" dy="1306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -223,8 +223,21 @@
         <mxCell id="x_Lso5muaHocFLSPd53c-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="马克西莫夫&lt;div&gt;（外省的地主）&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="130" x="-560" y="860" as="geometry" />
         </mxCell>
-        <mxCell id="x_Lso5muaHocFLSPd53c-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="赫拉科娃太太&lt;div&gt;叶卡杰丽娜·奥西波夫娜&lt;br&gt;&lt;div&gt;（地主）&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="x_Lso5muaHocFLSPd53c-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="霍赫拉科娃太太&lt;div&gt;叶卡杰丽娜·奥西波夫娜&lt;br&gt;&lt;div&gt;（地主）&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="120" x="490" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-17" edge="1" parent="1" source="x_Lso5muaHocFLSPd53c-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="x_Lso5muaHocFLSPd53c-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="900" />
+              <mxPoint x="410" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-18" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="给阿辽沙写情书" vertex="1">
+          <mxGeometry relative="1" x="-0.5505" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="x_Lso5muaHocFLSPd53c-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="莉兹&lt;div&gt;（坐轮椅）&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="120" x="250" y="1110" as="geometry" />
@@ -276,6 +289,138 @@
         </mxCell>
         <mxCell id="Vl8FM4IUUOmiTimmRR1s-5" connectable="0" parent="Vl8FM4IUUOmiTimmRR1s-4" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="母子" vertex="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG6dmDV6Ibex6k3CS_i8-1" parent="1" style="whiteSpace=wrap;html=1;" value="阿格拉菲娜·亚历山德罗夫娜&lt;div&gt;格露莘卡&lt;br&gt;&lt;div&gt;（大哥和父亲争夺对象）&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="-560" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="GG6dmDV6Ibex6k3CS_i8-2" parent="1" style="whiteSpace=wrap;html=1;" value="玛丽亚·康德拉启耶夫娜&lt;div&gt;（裙子拖地的隔壁邻居）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-490" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="hZ4Hfo4XOV04gE3Ib67S-1" parent="1" style="whiteSpace=wrap;html=1;" value="库兹马·萨姆索诺夫&lt;div&gt;包养&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;格露莘卡的老头&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-710" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="hZ4Hfo4XOV04gE3Ib67S-2" parent="1" style="whiteSpace=wrap;html=1;" value="里亚加维&lt;div&gt;（戈尔斯特金）&lt;br&gt;&lt;div&gt;做木材的&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-300" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="XzGHvfXxJxbcSTIx7RG9-1" parent="1" style="whiteSpace=wrap;html=1;" value="彼得·伊里奇·别尔霍津&lt;div&gt;（枪支收藏家，收了大哥的手枪）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-140" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="XzGHvfXxJxbcSTIx7RG9-2" parent="1" style="whiteSpace=wrap;html=1;" value="米哈依尔·马卡雷奇&lt;div&gt;（警察局长）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="XzGHvfXxJxbcSTIx7RG9-3" parent="1" style="whiteSpace=wrap;html=1;" value="伊波里特·基里洛维奇&lt;div&gt;（检察官）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="XzGHvfXxJxbcSTIx7RG9-4" parent="1" style="whiteSpace=wrap;html=1;" value="尼古拉·帕尔菲诺维奇·涅柳多夫&lt;div&gt;(预审推事)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-170" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-1" parent="1" style="whiteSpace=wrap;html=1;" value="郭立亚·克拉索特金&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-2" parent="1" style="whiteSpace=wrap;html=1;" value="安娜·费奥多罗夫娜（即克拉索特金娜太太）" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-3" edge="1" parent="1" source="vNZ_DzHTlS3PedlZITn2-2" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="vNZ_DzHTlS3PedlZITn2-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1215" as="sourcePoint" />
+            <mxPoint x="198" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-4" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-3" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="妈" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-5" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-3" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="儿" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-7" edge="1" parent="1" source="vNZ_DzHTlS3PedlZITn2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vNZ_DzHTlS3PedlZITn2-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-8" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="想和三十多的风雨犹存的寡妇妈妈结婚" vertex="1">
+          <mxGeometry relative="1" x="-0.0758" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-6" parent="1" style="whiteSpace=wrap;html=1;" value="达尔达涅洛夫" vertex="1">
+          <mxGeometry height="60" width="120" x="271" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-15" edge="1" parent="1" source="vNZ_DzHTlS3PedlZITn2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vNZ_DzHTlS3PedlZITn2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-16" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="大腿上给他一刀" vertex="1">
+          <mxGeometry relative="1" x="-0.0368" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-9" parent="1" style="whiteSpace=wrap;html=1;" value="伊柳沙&lt;div&gt;狠人小孩&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-30" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-11" edge="1" parent="1" source="vNZ_DzHTlS3PedlZITn2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vNZ_DzHTlS3PedlZITn2-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-13" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="爹" vertex="1">
+          <mxGeometry relative="1" x="-0.7527" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-14" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="儿" vertex="1">
+          <mxGeometry relative="1" x="0.5872" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-10" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;斯涅吉辽夫&lt;/div&gt;退役上校，澡擦子" vertex="1">
+          <mxGeometry height="60" width="120" x="-230" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-21" edge="1" parent="1" source="vNZ_DzHTlS3PedlZITn2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vNZ_DzHTlS3PedlZITn2-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-22" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="姐" vertex="1">
+          <mxGeometry relative="1" x="-0.487" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-23" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="弟" vertex="1">
+          <mxGeometry relative="1" x="0.4809" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-24" edge="1" parent="1" source="vNZ_DzHTlS3PedlZITn2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="vNZ_DzHTlS3PedlZITn2-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-25" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="房客医生夫人的孩子" vertex="1">
+          <mxGeometry relative="1" x="-0.2617" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-19" parent="1" style="whiteSpace=wrap;html=1;" value="娜斯佳" vertex="1">
+          <mxGeometry height="60" width="120" x="413" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-20" parent="1" style="whiteSpace=wrap;html=1;" value="果斯佳" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-27" edge="1" parent="1" source="vNZ_DzHTlS3PedlZITn2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vNZ_DzHTlS3PedlZITn2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-28" connectable="0" parent="vNZ_DzHTlS3PedlZITn2-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="河边互扔石头" vertex="1">
+          <mxGeometry relative="1" x="-0.0901" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNZ_DzHTlS3PedlZITn2-26" parent="1" style="whiteSpace=wrap;html=1;" value="斯穆罗夫&lt;div&gt;高管子弟&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="2vJXWopJdaQlfv7U1EIN-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;故事梗概&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;我对这本书应该也不能算看懂了，所以这里概述一下剧情和讲一下我本身读这本书的时候的主观感受。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第一卷是讲述卡拉马佐夫一家中的几个人的前半生，算是交代故事背景，也让我们对这几个主要角色有一点基本印象。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第二卷是一家人首次全部团聚，在长老的组织下，其中米嘉的舅舅在这一卷里算是主要人物，但是后续再也没出现过了，对这个人物的处理感觉是有点问题的，他在这一卷占据了很大篇幅，他自诩是进步人士，但是对长老和修道院却带着极大的敬意，他和老爹一直在针锋相对，其他角色的表现力倒是不高。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第三章就交代了私生子及其母亲的故事背景，老大对主人公的坦白，对那三千块，之后老大闯入家中把老头打了一顿，然后就是格露莘卡对卡嘉的羞辱，虽然我也不知道卡嘉吻了她的手她不吻回来算是什么羞辱，可能是可能这样算是上位对下位式的羞辱。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第四卷交代主人公遇到了被米嘉打了一顿的穷苦悲惨的澡擦子的一家，以及老大大人的后果，卡嘉为其处理这件事，这里加深了读者对卡嘉的好感。但是我还是不太清楚这样花大篇幅交代这样悲惨的一家的目的是什么，从头到脚这一家子都像是游荡在故事外，就好像一直在暗示这一家后面会有用的，但我还是没看出什么作用，可能是这本书没写完的原因。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第五卷是伊万对主人公交代了他内心的困境，他人生最重要的不是酒色，而是搞清楚内心的一些问题，后面说伊万是与老爹最像的一个，这里的像我没读懂。这一卷讲述了伊万写的一个宗教大法官的诗歌，诗歌内容是讲述自由与面包的关系，恶魔战胜了基督，基督给与人们自由，但是却让人们为了面包而受苦，恶魔给与人们面包，让人们放弃自由，差不多是这样吧，更具体的我就不记得了。还有交代伊万离开小镇前和私生子的谈话，看的时候没看出这里的对话的意思，到了开庭前伊万第三次拜访私生子才解开这里对话的深层内容。这也是伊万后面认为自己也是杀人凶手，陷入重病的根源之一。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第六卷其实就是佐西马长老的死亡节点和讲述佐西马长老的生平，我对其宗教内容不太感兴趣，就没看太认真。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第七卷讲佐西马长老因腐烂太快所以塌房了。主人公悲痛，跟着垃圾金去找格露欣卡，顺便交代格露欣卡的去向，引出留下一卷的老大&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第八卷就是高潮来临，米嘉在兜兜转转找钱的过程中忽然听闻格露欣卡不见了以为她去找老爹共登极乐，就急急忙忙去找他，当他在窗口看到格露欣卡不在时，镜头就转到了格里果利看到一个黑影逃串，然后在围墙抓住老大，被老大一棒子敲晕，之后老大置办了一堆东西去找格露欣卡，在酒馆狂欢了一夜后本想开枪自杀，结果发现格露欣卡没有和旧情人旧情复燃，就不舍得自杀了，最后在凌晨被抓获。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第九卷是在酒馆里被预审，一开始连我也认为是米嘉在嘴硬，他一直在逃避杀父的罪名，指导最后才发现说不定他真的没杀父，所有的线索都指向他。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第十卷就是伊柳沙重病将死，他的朋友们对他的关心，这卷就不知道有什么用。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第十一卷前面一半是主人公视角，用来表现各方在开庭前夕的表现，然后是莫名其妙的不是你，来引出伊万自认为是凶手之一的心里负担，他认为自己离开父亲是导致父亲被私生子杀死的主要原因，然后离家前和私生子的那段聪明人对话就是在密谋杀人，私生子还说是被伊万指示的。然后在沉重的心理负担下，伊万产生了一个恶魔幻觉在折磨他。但是其实很难说凶手真的就是私生子，因为伊万精神已经不太征程，很难说私生子的那段坦白不是他的幻想。总之私生子最后自杀了，没有给老大脱罪的机会。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第十二卷就是最精彩的审判环节了，每个人从他们的视角讲述这个故事，有很多问题到这里才知道当时为什么是这样，以及卡嘉最重要的一个心里变化过程，不然之前看的时候总感觉卡嘉精神不正常。还有最后检察官和辩护律师最后的总结发言也很精彩，到这里我才知道这个故事里是有精神正常逻辑清晰的正常人的。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最后尾声就是主人公去找卡嘉见一面米嘉，在病房见面的时候就互相那这手在亲吻，到这里就又有点神经病了，然后被格露欣卡撞见，吵了起来，在这一点上就能看出他们两现在只是激情上脑，以后一不定真的能永远幸福。然后就是给伊柳沙办葬礼，最后他还是死了。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;这个故事里死了三个人，一个是佐西马，然后是酒鬼和色鬼老爹，一个是倔强的伊柳沙，虽然我看不出什么规律和意义，但事实总感觉其中定有什么深意。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="890" width="600" x="-640" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="2vJXWopJdaQlfv7U1EIN-3" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;阅读感受&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;好像也没什么感受，就是一开始的时候总感觉完全被蒙蔽了，不知道每个角色的底色，然后看到他们每个人总是情绪夸张动作浮夸，总是动不动就搁这吻这吻那的，我还以为要么是翻译问题要么是国外文化不同，同时我也没感受到角色心里的细腻，总之一句话评价就是不如罪与罚。中间的一些辩论挺精彩的，比如在酒馆伊万对阿辽沙说的那段。这本书里夹杂着大量的宗教内容，我对宗教无感，所以这些内容对我来说是完完全全的没用的东西。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;后来不知道是回看前面还是在哪里提到过，这些主要人物基本都有精神分裂，这就是我对他们精神病印象的来源，他们经常左右脑互博，而且说得很真，很真情实感，我都要信他了，然后下面不远处他又提出相反的情感或观点，我都不知道那个是真的那个是假的。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;当然这些神经病到最后才发现其中有迹可循，比如最精彩的卡嘉，她在小说中表现很爱米家，但是有人又说她很爱伊万，但是她表现出来就是对米嘉无条件包容，甚至纵容，表现得好像真的很爱米嘉似的。但实际上理一理卡嘉得心理变化就能知道，首先开端她就是个大小姐，她是很看不起米嘉这个堕落小军官的，这是起点。其次她爹遭遇亏空，刚好米嘉有钱能帮她，米嘉找人通知她独身去他宿舍，是个人都知道去了要干什么，她肯定是做过心理挣扎才说服自己前往的，但之后拿到钱之后米嘉什么都没做，这样一种从献身的羞辱到善意帮助的巨大感激使得卡嘉对米嘉产生了一种巨大的扭曲的情感，她感激他，又很怨恨他，后面的一系列行为看上去是报恩，实际有可能是属于大小姐的扭曲的复仇，比如那个三千块，说是让他帮忙寄钱，实际上就是拿三千块引诱他堕落，甚至是陷入自身道德的折磨。最后在法庭上因为伊万的证言彻底爆发，爆发了仇恨。感觉向他下跪就是被羞辱了。差不多是这样，这样一看就一切都正常了起来。属实是精彩绝伦。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;差不多就是这样，这本书有点意思但是又没有很有意思，在前面长端的铺垫下，在十二卷集中爆发填坑。当然前面的一些段落也挺有意思。就酱。&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="400" width="600" y="1710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
