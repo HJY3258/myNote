@@ -747,7 +747,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="f6c8YmDf6eUVW0oe_ZnX" name="第 2 页">
-    <mxGraphModel dx="1783" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1053,20 +1053,281 @@
         <mxCell id="aDBbk0efwTaJwBn-7F-A-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="onFightTargetEnd&lt;div&gt;标记目标战斗完成，此后onloop中的判断通过，会继续执行checkToFight函数&lt;/div&gt;" vertex="1">
           <mxGeometry height="132" width="110" x="810" y="2550" as="geometry" />
         </mxCell>
-        <mxCell id="aDBbk0efwTaJwBn-7F-A-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="细分区域，1.技能使用，技能表现细节，实体的生成和销毁的生命周期，挂机刷怪逻辑。寻路逻辑，伤害飘字" vertex="1">
-          <mxGeometry height="30" width="600" x="15" y="2780" as="geometry" />
+        <mxCell id="aDBbk0efwTaJwBn-7F-A-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="细分区域 5.挂机刷怪逻辑。寻路逻辑，伤害飘字" vertex="1">
+          <mxGeometry height="30" width="280" x="275" y="4686" as="geometry" />
         </mxCell>
-        <mxCell id="TedeQAFJDexOG_dz6AL2-1" parent="1" style="whiteSpace=wrap;html=1;" value="挂机场景主角使用技能" vertex="1">
-          <mxGeometry height="60" width="120" x="80" y="2870" as="geometry" />
+        <mxCell id="TedeQAFJDexOG_dz6AL2-1" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="挂机场景主角使用技能" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="2863" as="geometry" />
         </mxCell>
-        <mxCell id="TedeQAFJDexOG_dz6AL2-3" parent="1" style="whiteSpace=wrap;html=1;" value="副本内主角主动使用技能" vertex="1">
-          <mxGeometry height="60" width="120" x="280" y="2870" as="geometry" />
+        <mxCell id="TedeQAFJDexOG_dz6AL2-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="副本内主角主动使用技能" vertex="1">
+          <mxGeometry height="60" width="120" x="910" y="2863" as="geometry" />
         </mxCell>
-        <mxCell id="TedeQAFJDexOG_dz6AL2-4" parent="1" style="whiteSpace=wrap;html=1;" value="其他角色由服务器直接下推技能使用的表现" vertex="1">
-          <mxGeometry height="60" width="120" x="480" y="2870" as="geometry" />
+        <mxCell id="TedeQAFJDexOG_dz6AL2-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontSize=17;" value="1.进入游戏后的挂机场景战斗流程" vertex="1">
+          <mxGeometry height="30" width="280" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="TedeQAFJDexOG_dz6AL2-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontSize=15;" value="进入游戏后的挂机场景战斗流程" vertex="1">
-          <mxGeometry height="30" width="230" x="20" y="20" as="geometry" />
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-1" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="AIUnitKillWildMonster" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-10" edge="1" parent="1" source="qr8wfy2bgx7m_SYX2ZJi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qr8wfy2bgx7m_SYX2ZJi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="checkToKillTarget&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;查找可以使用的skillid&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="110" x="95" y="3070" as="geometry" />
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="FightCache" vertex="1">
+          <mxGeometry height="60" width="120" x="255" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-11" edge="1" parent="1" source="qr8wfy2bgx7m_SYX2ZJi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="getUsableSkillId&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;获取当前可以使用的技能id，每次重置可使用技能列表，通过技能公共cd和单个技能cd判断&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="110" x="260" y="3070" as="geometry" />
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="技能释放前会判断目标在角色所有技能中攻击范围最小的距离内&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="360" x="20" y="2815" as="geometry" />
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-17" edge="1" parent="1" source="qr8wfy2bgx7m_SYX2ZJi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="3360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-9" parent="1" style="whiteSpace=wrap;html=1;" value="doUserSkill&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;这里就已经计算完技能的全部伤害影响对象等数据&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="90" y="3200" as="geometry" />
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-12" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="DamageUtil" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-16" edge="1" parent="1" source="qr8wfy2bgx7m_SYX2ZJi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qr8wfy2bgx7m_SYX2ZJi-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="3320" />
+              <mxPoint x="340" y="3320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-13" parent="1" style="whiteSpace=wrap;html=1;" value="calculateDamageOnAttackWildMonster&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;根据伤害类型查找以目标为中心的圆活着以自身为中心的圆范围内的敌人实体。&lt;/div&gt;&lt;div&gt;找到之后还要检查被影响的实体是否在当前挂机的目标组内，不同组不计算&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="430" y="3200" as="geometry" />
+        </mxCell>
+        <mxCell id="qr8wfy2bgx7m_SYX2ZJi-15" parent="1" style="whiteSpace=wrap;html=1;" value="之后的东西整体流程上都有" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="确定攻击目标之后" vertex="1">
+          <mxGeometry height="30" width="120" x="900" y="2820" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="AIUnitKillTarget2" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-6" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jPeWL4KHncnC_cirNBIv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-4" parent="1" style="whiteSpace=wrap;html=1;" value="checkToKillTarget&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;获取可使用的技能id来使用，同时处理战魂的技能使用&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="760" y="3080" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-5" parent="1" style="whiteSpace=wrap;html=1;" value="doUserSkill&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;获得技能id后使用技能，记录cd时间等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="3210" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-8" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="FightPlayManager" vertex="1">
+          <mxGeometry height="60" width="120" x="920" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-12" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="jPeWL4KHncnC_cirNBIv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-9" parent="1" style="whiteSpace=wrap;html=1;" value="kingFightPlay&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;先做特效和动作表现，不做飘字，等服务器回调后根据攻击id处理后续表现&lt;/div&gt;" vertex="1">
+          <mxGeometry height="93" width="120" x="920" y="3077" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-10" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="FightController" vertex="1">
+          <mxGeometry height="60" width="120" x="1095" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-14" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jPeWL4KHncnC_cirNBIv-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1155" y="3310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-19" connectable="0" parent="jPeWL4KHncnC_cirNBIv-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="服务器下推消息begin_do_fights_ex" vertex="1">
+          <mxGeometry relative="1" x="0.0941" y="1" as="geometry">
+            <mxPoint x="-27" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-11" parent="1" style="whiteSpace=wrap;html=1;" value="onKingPlayerUseFightSkill&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;调接口，做战斗日志&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="1080" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="事件KingPlayerUseFightSkill" vertex="1">
+          <mxGeometry height="30" width="180" x="905" y="3190" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="调接口use_skill" vertex="1">
+          <mxGeometry height="30" width="110" x="1100" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-24" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jPeWL4KHncnC_cirNBIv-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-25" connectable="0" parent="jPeWL4KHncnC_cirNBIv-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="循环处理所有数据" vertex="1">
+          <mxGeometry relative="1" x="-0.34" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-18" parent="1" style="whiteSpace=wrap;html=1;" value="onBeginDoFightsEx" vertex="1">
+          <mxGeometry height="60" width="120" x="1096" y="3320" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-21" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jPeWL4KHncnC_cirNBIv-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="3300.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-20" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="由服务器主动使用技能，比如其他玩家角色的同步" vertex="1">
+          <mxGeometry height="60" width="120" x="910" y="3270" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-27" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jPeWL4KHncnC_cirNBIv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-9" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="GG9CnKaVBHdYXwrh66vH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-23" parent="1" style="whiteSpace=wrap;html=1;" value="processDoFight&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;用攻击id缓存伤害数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1096" y="3430" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-28" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1076" y="3590" />
+              <mxPoint x="1076" y="3410" />
+            </Array>
+            <mxPoint x="1150" y="3410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-30" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jPeWL4KHncnC_cirNBIv-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-26" parent="1" style="whiteSpace=wrap;html=1;" value="processEtyUpdAttr&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;更新实体属性，这里可能会触发实体死亡，位置偏差过大的花调整角色位置与服务器同步&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="1096" y="3540" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-2" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="GG9CnKaVBHdYXwrh66vH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeWL4KHncnC_cirNBIv-29" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;processBeginFight&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;显示宠物，主角分身，其他角色的技能表现，主角的技能表现在调接口之前就已经做过了&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="1096" y="3690" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-1" parent="1" style="whiteSpace=wrap;html=1;" value="fightPlayOther" vertex="1">
+          <mxGeometry height="60" width="120" x="920" y="3750" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="BaseSkillDisplay" vertex="1">
+          <mxGeometry height="60" width="120" x="1270" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-4" parent="1" style="whiteSpace=wrap;html=1;" value="play&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;技能表现，包括动作和特效&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1280" y="3097.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-5" edge="1" parent="1" source="jPeWL4KHncnC_cirNBIv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.067;entryY=0.821;entryDx=0;entryDy=0;entryPerimeter=0;" target="GG9CnKaVBHdYXwrh66vH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-11" edge="1" parent="1" source="GG9CnKaVBHdYXwrh66vH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="GG9CnKaVBHdYXwrh66vH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-6" parent="1" style="whiteSpace=wrap;html=1;" value="delayShowHurt&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;显示伤害飘字，受击动作和音效，如果这个时候服务器的伤害数据还没回来就开启循环检测缓存里是否有对应数据&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="120" x="1287" y="3403" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-7" edge="1" parent="1" source="GG9CnKaVBHdYXwrh66vH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=-0.078;entryDx=0;entryDy=0;entryPerimeter=0;" target="GG9CnKaVBHdYXwrh66vH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-8" connectable="0" parent="GG9CnKaVBHdYXwrh66vH-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="根据配置延迟调用" vertex="1">
+          <mxGeometry relative="1" x="-0.0338" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-10" parent="1" style="whiteSpace=wrap;html=1;" value="onDoEntityHurt&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;发事件显示飘字&lt;/div&gt;&lt;div&gt;触发ui上的血条刷新和死亡检查&lt;/div&gt;&lt;div&gt;设置仇恨&lt;/div&gt;&lt;div&gt;显示受击特效等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="1090" y="3860" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontSize=17;" value="2.技能使用" vertex="1">
+          <mxGeometry height="30" width="110" x="10" y="2785" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-14" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="10" y="2720" as="sourcePoint" />
+            <mxPoint x="2460" y="2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="4030" as="sourcePoint" />
+            <mxPoint x="2470" y="4030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-16" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="3890" as="sourcePoint" />
+            <mxPoint x="720" y="2820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontSize=17;" value="&lt;font&gt;3.技能表现&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="20" y="4062" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-18" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="BaseSkillDisplay" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="4200" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="目前的技能表现都在这个类里" vertex="1">
+          <mxGeometry height="30" width="180" x="270" y="4260" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-20" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="技能表现得生命周期" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="4110" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-23" edge="1" parent="1" source="GG9CnKaVBHdYXwrh66vH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GG9CnKaVBHdYXwrh66vH-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-21" parent="1" style="whiteSpace=wrap;html=1;" value="init&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化数据，包括攻击者id，目标id，dmg，暴击标志&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="290" y="4330" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-25" edge="1" parent="1" source="GG9CnKaVBHdYXwrh66vH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GG9CnKaVBHdYXwrh66vH-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-22" parent="1" style="whiteSpace=wrap;html=1;" value="play/playOther&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果释放主体和目标都不是主角，就用playOther，这时要检查是否误伤主角，是就要飘字&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;延迟显示伤害和播放音效&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="120" x="490" y="4297" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-29" edge="1" parent="1" source="GG9CnKaVBHdYXwrh66vH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GG9CnKaVBHdYXwrh66vH-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-24" parent="1" style="whiteSpace=wrap;html=1;" value="playWithoutDmg&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;获取配置动作名，调用实体得播放动作函数，并处理后续动作衔接&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110.5" width="120" x="700" y="4313.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-31" edge="1" parent="1" source="GG9CnKaVBHdYXwrh66vH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GG9CnKaVBHdYXwrh66vH-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bfb-bG_D0nPqm27v-zpR-4" edge="1" parent="1" source="GG9CnKaVBHdYXwrh66vH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Bfb-bG_D0nPqm27v-zpR-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-28" parent="1" style="whiteSpace=wrap;html=1;" value="playEffect&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;技能特效&lt;/div&gt;&lt;div&gt;获取特效资源，六道技能替换和鲲的技能特效替换都是整个特效资源更改，而不是只修改特效中的模型&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;摄像机特效就将特效节点加到摄像机下&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;根据特效类型生成对应特效类，它自己会生成应对应特效资源&lt;/div&gt;" vertex="1">
+          <mxGeometry height="221.25" width="120" x="900" y="4258.75" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-33" edge="1" parent="1" source="GG9CnKaVBHdYXwrh66vH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GG9CnKaVBHdYXwrh66vH-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-34" connectable="0" parent="GG9CnKaVBHdYXwrh66vH-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="技能表现时间结束后" vertex="1">
+          <mxGeometry relative="1" x="-0.1522" y="2" as="geometry">
+            <mxPoint x="5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-30" parent="1" style="whiteSpace=wrap;html=1;" value="playHitEffect&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;受击特效和镜头晃动&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1100" y="4338.75" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-36" edge="1" parent="1" source="GG9CnKaVBHdYXwrh66vH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GG9CnKaVBHdYXwrh66vH-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-32" parent="1" style="whiteSpace=wrap;html=1;" value="onEnd&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;超时了就强制结束动作&lt;/div&gt;&lt;div&gt;通知FightPlayManager销毁自身&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111.25" width="120" x="1350" y="4313.75" as="geometry" />
+        </mxCell>
+        <mxCell id="GG9CnKaVBHdYXwrh66vH-35" parent="1" style="whiteSpace=wrap;html=1;" value="dispose&lt;div&gt;销毁&lt;/div&gt;&lt;div&gt;没有显示伤害的一次性全部显示，刷一下血条，清除计时器，销毁技能特效和受击特效&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105.62" width="120" x="1550" y="4316.38" as="geometry" />
+        </mxCell>
+        <mxCell id="Bfb-bG_D0nPqm27v-zpR-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="这里调了一下特效的play函数，应该只是清除一下延迟销毁的计时器，实际上不做播放特效的作用，猜特效应该是自动播放，这里也有技能震屏" vertex="1">
+          <mxGeometry height="109.99" width="120" x="900" y="4500.01" as="geometry" />
+        </mxCell>
+        <mxCell id="Bfb-bG_D0nPqm27v-zpR-5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="4650" as="sourcePoint" />
+            <mxPoint x="2470" y="4650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bfb-bG_D0nPqm27v-zpR-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontSize=17;" value="&lt;font&gt;4.实体的生命周期&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="20" y="4686" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
