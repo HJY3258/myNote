@@ -1,0 +1,479 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="第 1 页" id="LyBvozUxAY4SHj1V0Ara">
+    <mxGraphModel dx="3565" dy="2123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-8" edge="1" parent="1" source="M7aFM3k2qHbGHiO31Dpk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=block;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-9" connectable="0" parent="M7aFM3k2qHbGHiO31Dpk-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="二儿子" vertex="1">
+          <mxGeometry relative="1" x="0.0304" as="geometry">
+            <mxPoint x="29" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-4" edge="1" parent="1" source="M7aFM3k2qHbGHiO31Dpk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="650" />
+              <mxPoint x="940" y="650" />
+            </Array>
+            <mxPoint x="940" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-30" edge="1" parent="1" source="M7aFM3k2qHbGHiO31Dpk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4gKxWR1k2djAtNhNOsq0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-1" parent="1" style="whiteSpace=wrap;html=1;" value="奥雷里亚诺·布恩迪亚上校" vertex="1">
+          <mxGeometry height="60" width="120" x="970" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-2" parent="1" style="whiteSpace=wrap;html=1;" value="梅尔基亚德斯" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-5" edge="1" parent="1" source="M7aFM3k2qHbGHiO31Dpk-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="M7aFM3k2qHbGHiO31Dpk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-6" connectable="0" parent="M7aFM3k2qHbGHiO31Dpk-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="夫妻" vertex="1">
+          <mxGeometry relative="1" x="-0.0364" y="2" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-3" parent="1" style="whiteSpace=wrap;html=1;" value="何塞·阿尔卡蒂奥·布恩迪亚" vertex="1">
+          <mxGeometry height="60" width="120" x="800" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-4" parent="1" style="whiteSpace=wrap;html=1;" value="乌尔苏拉·伊瓜兰" vertex="1">
+          <mxGeometry height="60" width="120" x="1030" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-12" edge="1" parent="1" source="M7aFM3k2qHbGHiO31Dpk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=block;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-13" connectable="0" parent="M7aFM3k2qHbGHiO31Dpk-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="大儿子" vertex="1">
+          <mxGeometry relative="1" x="-0.6483" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-7" edge="1" parent="1" source="M7aFM3k2qHbGHiO31Dpk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M-3cY2qTtJr4nbUq8Vf7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-7" edge="1" parent="1" source="M7aFM3k2qHbGHiO31Dpk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="M-3cY2qTtJr4nbUq8Vf7-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="540" />
+              <mxPoint x="1490" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-8" connectable="0" parent="4gKxWR1k2djAtNhNOsq0-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="夫妻" vertex="1">
+          <mxGeometry relative="1" x="0.05" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7aFM3k2qHbGHiO31Dpk-11" parent="1" style="whiteSpace=wrap;html=1;" value="何塞·阿尔卡蒂奥" vertex="1">
+          <mxGeometry height="60" width="120" x="810" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-1" parent="1" style="whiteSpace=wrap;html=1;" value="海盗弗朗西斯·德雷克" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-8" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-9" connectable="0" parent="M-3cY2qTtJr4nbUq8Vf7-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="儿子" vertex="1">
+          <mxGeometry relative="1" x="0.487" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-3" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4gKxWR1k2djAtNhNOsq0-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="650" />
+              <mxPoint x="940" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-5" connectable="0" parent="4gKxWR1k2djAtNhNOsq0-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="儿子" vertex="1">
+          <mxGeometry relative="1" x="0.9051" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-2" parent="1" style="whiteSpace=wrap;html=1;" value="庇拉尔·特尔内拉" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-4" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=block;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-5" connectable="0" parent="M-3cY2qTtJr4nbUq8Vf7-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="三女儿" vertex="1">
+          <mxGeometry relative="1" x="-0.7282" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-3" parent="1" style="whiteSpace=wrap;html=1;" value="阿玛兰妲" vertex="1">
+          <mxGeometry height="60" width="120" x="1130" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-15" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.617;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" target="4gKxWR1k2djAtNhNOsq0-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="620" />
+              <mxPoint x="720" y="670" />
+              <mxPoint x="624" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-16" connectable="0" parent="4gKxWR1k2djAtNhNOsq0-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="夫妻" vertex="1">
+          <mxGeometry relative="1" x="0.3949" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-21" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-22" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="4gKxWR1k2djAtNhNOsq0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-27" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="790" />
+              <mxPoint x="570" y="790" />
+            </Array>
+            <mxPoint x="570" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-6" parent="1" style="whiteSpace=wrap;html=1;" value="何塞·阿尔卡蒂奥" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-10" parent="1" style="whiteSpace=wrap;html=1;" value="比西塔西翁" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-11" parent="1" style="whiteSpace=wrap;html=1;" value="尼卡诺尔·乌略亚" vertex="1">
+          <mxGeometry height="60" width="120" x="1330" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-12" parent="1" style="whiteSpace=wrap;html=1;" value="丽贝卡·蒙铁尔" vertex="1">
+          <mxGeometry height="60" width="120" x="1524" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-13" parent="1" style="whiteSpace=wrap;html=1;" value="丽贝卡" vertex="1">
+          <mxGeometry height="60" width="120" x="1430" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-14" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M-3cY2qTtJr4nbUq8Vf7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-15" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M-3cY2qTtJr4nbUq8Vf7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-16" parent="1" style="whiteSpace=wrap;html=1;" value="弗朗西斯科" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-20" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="M-3cY2qTtJr4nbUq8Vf7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-22" connectable="0" parent="M-3cY2qTtJr4nbUq8Vf7-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="女儿" vertex="1">
+          <mxGeometry relative="1" x="-0.6329" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-21" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M-3cY2qTtJr4nbUq8Vf7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-17" parent="1" style="whiteSpace=wrap;html=1;" value="堂阿波利纳尔·摩斯科特" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-18" parent="1" style="whiteSpace=wrap;html=1;" value="安帕萝·摩斯科特" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-19" parent="1" style="whiteSpace=wrap;html=1;" value="蕾梅黛丝" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-23" parent="1" style="whiteSpace=wrap;html=1;" value="皮埃特罗·克雷斯皮" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-24" parent="1" style="whiteSpace=wrap;html=1;" value="马格尼菲科·比斯巴勒" vertex="1">
+          <mxGeometry height="60" width="120" x="1810" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-25" parent="1" style="whiteSpace=wrap;html=1;" value="卡塔利诺" vertex="1">
+          <mxGeometry height="60" width="120" x="1810" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-15" edge="1" parent="1" source="M-3cY2qTtJr4nbUq8Vf7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RkxaAqIsSOI7cJM7WDaj-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-16" connectable="0" parent="RkxaAqIsSOI7cJM7WDaj-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="后代" vertex="1">
+          <mxGeometry relative="1" x="-0.02" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-26" parent="1" style="whiteSpace=wrap;html=1;" value="赫里内勒多·马尔克斯" vertex="1">
+          <mxGeometry height="60" width="120" x="1960" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-27" parent="1" style="whiteSpace=wrap;html=1;" value="尼卡诺尔·雷伊纳神甫" vertex="1">
+          <mxGeometry height="60" width="120" x="1960" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-28" parent="1" style="whiteSpace=wrap;html=1;" value="阿利黎奥·诺格拉医生" vertex="1">
+          <mxGeometry height="60" width="120" x="1810" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="M-3cY2qTtJr4nbUq8Vf7-29" parent="1" style="whiteSpace=wrap;html=1;" value="桑塔索菲亚·德拉·彼达" vertex="1">
+          <mxGeometry height="60" width="120" x="1960" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-1" parent="1" style="whiteSpace=wrap;html=1;" value="普鲁邓希奥·阿基拉尔" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-2" parent="1" style="whiteSpace=wrap;html=1;" value="奥雷里亚诺·何塞" vertex="1">
+          <mxGeometry height="60" width="120" x="880" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-9" parent="1" style="whiteSpace=wrap;html=1;" value="何塞·拉克尔·蒙卡达&lt;div&gt;战后市长&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1810" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-11" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="M-3cY2qTtJr4nbUq8Vf7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-12" connectable="0" parent="4gKxWR1k2djAtNhNOsq0-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="夫妻" vertex="1">
+          <mxGeometry relative="1" x="0.0571" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-10" parent="1" style="whiteSpace=wrap;html=1;" value="布鲁诺·克雷斯皮" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-13" parent="1" style="whiteSpace=wrap;html=1;" value="堂梅尔乔·埃斯卡洛纳&lt;div&gt;负责新建的学校&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1960" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-19" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4gKxWR1k2djAtNhNOsq0-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-23" connectable="0" parent="4gKxWR1k2djAtNhNOsq0-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="儿子" vertex="1">
+          <mxGeometry relative="1" x="0.3077" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-20" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="4gKxWR1k2djAtNhNOsq0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-24" connectable="0" parent="4gKxWR1k2djAtNhNOsq0-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="儿子" vertex="1">
+          <mxGeometry relative="1" x="0.5407" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-26" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4gKxWR1k2djAtNhNOsq0-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="790" />
+              <mxPoint x="570" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-28" connectable="0" parent="4gKxWR1k2djAtNhNOsq0-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="女儿" vertex="1">
+          <mxGeometry relative="1" x="0.5636" y="2" as="geometry">
+            <mxPoint x="-2" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-14" parent="1" style="whiteSpace=wrap;html=1;" value="桑塔索菲亚·德拉·彼达" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-34" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4gKxWR1k2djAtNhNOsq0-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-35" connectable="0" parent="4gKxWR1k2djAtNhNOsq0-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="儿子" vertex="1">
+          <mxGeometry relative="1" x="-0.1333" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-37" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="4gKxWR1k2djAtNhNOsq0-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="850" />
+              <mxPoint x="790" y="970" />
+              <mxPoint x="880" y="970" />
+            </Array>
+            <mxPoint x="880" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-38" connectable="0" parent="4gKxWR1k2djAtNhNOsq0-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="夫妻" vertex="1">
+          <mxGeometry relative="1" x="-0.1777" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hG1xdLO9Vb4ge_6OAA_-4" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="4hG1xdLO9Vb4ge_6OAA_-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="900" />
+              <mxPoint x="885" y="900" />
+              <mxPoint x="885" y="915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hG1xdLO9Vb4ge_6OAA_-5" connectable="0" parent="4hG1xdLO9Vb4ge_6OAA_-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="情人" vertex="1">
+          <mxGeometry relative="1" x="0.3752" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-2" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GsnOUnqdlYDvev2ND3kx-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="900" />
+              <mxPoint x="620" y="900" />
+              <mxPoint x="620" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-9" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="RkxaAqIsSOI7cJM7WDaj-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="940" />
+              <mxPoint x="840" y="940" />
+              <mxPoint x="840" y="1110" />
+              <mxPoint x="880" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-17" parent="1" style="whiteSpace=wrap;html=1;" value="奥雷里亚诺第二" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-18" parent="1" style="whiteSpace=wrap;html=1;" value="何塞·阿尔卡蒂奥第二" vertex="1">
+          <mxGeometry height="60" width="120" x="810" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-25" parent="1" style="whiteSpace=wrap;html=1;" value="蕾梅黛丝（美人儿）" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-6" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="GsnOUnqdlYDvev2ND3kx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-7" connectable="0" parent="GsnOUnqdlYDvev2ND3kx-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="其中之一" vertex="1">
+          <mxGeometry relative="1" x="-0.0923" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-9" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="GsnOUnqdlYDvev2ND3kx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-29" parent="1" style="whiteSpace=wrap;html=1;" value="奥雷里亚诺（一堆）" vertex="1">
+          <mxGeometry height="60" width="120" x="1060" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-31" parent="1" style="whiteSpace=wrap;html=1;" value="驻军首领阿基莱斯·里卡多" vertex="1">
+          <mxGeometry height="60" width="120" x="1810" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-32" parent="1" style="whiteSpace=wrap;html=1;" value="特奥菲洛·巴尔加斯将军" vertex="1">
+          <mxGeometry height="60" width="120" x="1960" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-33" parent="1" style="whiteSpace=wrap;html=1;" value="何塞·阿尔卡蒂奥" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-39" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="4gKxWR1k2djAtNhNOsq0-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-40" connectable="0" parent="4gKxWR1k2djAtNhNOsq0-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="儿子" vertex="1">
+          <mxGeometry relative="1" x="0.6072" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-3" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="GsnOUnqdlYDvev2ND3kx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-4" connectable="0" parent="GsnOUnqdlYDvev2ND3kx-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="女儿" vertex="1">
+          <mxGeometry relative="1" x="0.5905" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-8" edge="1" parent="1" source="4gKxWR1k2djAtNhNOsq0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="RkxaAqIsSOI7cJM7WDaj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-10" connectable="0" parent="RkxaAqIsSOI7cJM7WDaj-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="女儿" vertex="1">
+          <mxGeometry relative="1" x="0.4545" y="7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gKxWR1k2djAtNhNOsq0-36" parent="1" style="whiteSpace=wrap;html=1;" value="费尔南达·德尔·卡皮奥" vertex="1">
+          <mxGeometry height="60" width="120" x="880" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="4hG1xdLO9Vb4ge_6OAA_-1" parent="1" style="whiteSpace=wrap;html=1;" value="佩特拉·科特斯" vertex="1">
+          <mxGeometry height="60" width="120" x="1010" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="4hG1xdLO9Vb4ge_6OAA_-2" edge="1" parent="1" source="4hG1xdLO9Vb4ge_6OAA_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.005;entryY=0.406;entryDx=0;entryDy=0;entryPerimeter=0;" target="4gKxWR1k2djAtNhNOsq0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4hG1xdLO9Vb4ge_6OAA_-3" connectable="0" parent="4hG1xdLO9Vb4ge_6OAA_-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="情人" vertex="1">
+          <mxGeometry relative="1" x="0.2336" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-4" edge="1" parent="1" source="GsnOUnqdlYDvev2ND3kx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-1" parent="1" style="whiteSpace=wrap;html=1;" value="雷纳塔·蕾梅黛丝" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-5" parent="1" style="whiteSpace=wrap;html=1;" value="奥雷里亚诺·特里斯特" vertex="1">
+          <mxGeometry height="60" width="120" x="1280" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-8" parent="1" style="whiteSpace=wrap;html=1;" value="奥雷里亚诺·森特诺" vertex="1">
+          <mxGeometry height="60" width="120" x="1300" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-10" parent="1" style="whiteSpace=wrap;html=1;" value="赫伯特先生" vertex="1">
+          <mxGeometry height="60" width="120" x="1810" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="GsnOUnqdlYDvev2ND3kx-11" parent="1" style="whiteSpace=wrap;html=1;" value="米拉·萨迦丝杜梅" vertex="1">
+          <mxGeometry height="60" width="120" x="1960" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-3" edge="1" parent="1" source="RkxaAqIsSOI7cJM7WDaj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RkxaAqIsSOI7cJM7WDaj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-5" connectable="0" parent="RkxaAqIsSOI7cJM7WDaj-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="儿子" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-1" parent="1" style="whiteSpace=wrap;html=1;" value="马乌里肖·巴比伦" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-18" edge="1" parent="1" source="RkxaAqIsSOI7cJM7WDaj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RkxaAqIsSOI7cJM7WDaj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-2" parent="1" style="whiteSpace=wrap;html=1;" value="奥雷里亚诺" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-6" parent="1" style="whiteSpace=wrap;html=1;" value="洛伦索·加比兰" vertex="1">
+          <mxGeometry height="60" width="120" x="1810" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-19" edge="1" parent="1" source="RkxaAqIsSOI7cJM7WDaj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RkxaAqIsSOI7cJM7WDaj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-20" connectable="0" parent="RkxaAqIsSOI7cJM7WDaj-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="儿子" vertex="1">
+          <mxGeometry relative="1" x="0.6059" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-7" parent="1" style="whiteSpace=wrap;html=1;" value="阿玛兰妲·乌尔苏拉" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-12" edge="1" parent="1" source="RkxaAqIsSOI7cJM7WDaj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RkxaAqIsSOI7cJM7WDaj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-13" connectable="0" parent="RkxaAqIsSOI7cJM7WDaj-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="情人" vertex="1">
+          <mxGeometry relative="1" x="-0.2444" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-11" parent="1" style="whiteSpace=wrap;html=1;" value="尼格罗曼妲" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-14" parent="1" style="whiteSpace=wrap;html=1;" value="加夫列尔" vertex="1">
+          <mxGeometry height="60" width="120" x="2180" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RkxaAqIsSOI7cJM7WDaj-17" parent="1" style="whiteSpace=wrap;html=1;" value="奥雷里亚诺" vertex="1">
+          <mxGeometry height="60" width="120" x="707" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="84J6WIwlEYL_TyScfG26-1" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="读后感：&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;先说说我的评价，这本书在我心里的地位和罪与罚可以平起平坐了。我在阅读两者的时候都感到内心的震撼。罪与罚是让我震撼的点是作者对角色心理活动的精细且准确的刻画，这点很精彩。而百年孤独给我的震撼是它真的成功让书中潮水般的孤独慢慢浸出来，来到现实中的我的身边。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;在阅读这本书的时候从一开始心境平和地看待一代的生活和2代的成长，然后到上校发起战争开始心情开始动荡，最后战争失败跟着一起变得逐渐麻木。在前半部分它在构建一个环境并且在这个环境里一种名为孤独的气氛逐渐弥漫。到了第11，12章孤独感大爆发，布恩迪亚家族渐渐没落，孤独的情绪也一直在飘荡，只是没有爆发那一刻强烈，在阅读过程中会感受到被一种足够让人窒息的孤独感包围，没有办法逃脱。有个首尾呼应很有意思，开始的时候乌尔苏拉害怕像表哥一样生出猪尾巴的孩子而穿贞操裤，这导致何塞斗鸡的时候被嘲笑，杀死了对手，然后才有长途迁徙和马孔多的出现。到了书的结尾也是姑姑和侄子乱伦生出了这个家族最后一个孩子也是唯一一个长着猪尾巴的孩子而结束。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;在我读这本书之前就已经听说过它分不清人名的情况，所以我在阅读本书的过程中是画了人物关系图的，实际上整本读下来确实难认，因为布恩迪亚家族的人生孩子是用上一代的名字来命名的，所以会出现很多相同的奥雷里亚诺等相同的名字，但是因为他们的名字相对比较有辨识度，不至于同辈人弄混，不像卡拉马佐夫兄弟这本书一样名字都很长又很相似，还有很多昵称。再加上作者为了方便读者辨识，也对不同的后代的名字做了一些区分，比如奥雷里亚诺第二和梅梅等。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;这本书的很多角色和意象都很深的含义，并且描写有时候相对克制和含蓄。比如失眠症这个表象我就需要通过搜索查找。接下来我会根据我的记忆和印象来谈论几个给我留下深刻印象的角色。因为是回忆所以不一定完全正确。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第一个肯定是源头，何塞·阿尔卡蒂奥。他是马孔多的开拓者和建立者，因为斗鸡对象嘲笑他的生殖力而击杀对面，又为了逃避内心的愧疚而举行伟大的远征。它本身也是包含热情和开拓精神的。每次吉卜赛人带来了什么新鲜事物，他都会立刻获得并认真思考其作用，行动力也极强，想到了就立刻行动。在创建马孔多的那场远征中，他还想继续走下去，但是遭到了同行者强烈的抵抗，其中以乌尔苏拉为首，最后他妥协了，这里是他孤独的第一个点，之后的炼金研究和放大镜，冰块和炼金等从现在的目光看来毫无意义，但是这是他的精神追求，是完满他的生命和他的精神的重要途经和目标。虽然这些行动都失败了。并且他做这些的时候也是没有人理解他，没有同路者。幸运的是还有&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;梅尔基亚德斯这样一个人可以陪他聊这些东西。最后在日复一日重复而失败的人生中疯掉了，每天被绑在树下和已经死掉很多年的&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;梅尔基亚德斯聊天。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第二个是乌尔苏拉。她简直是超人，而且完全是整个布恩迪亚家族的脊骨，她活了一百多岁，死掉之后我才忽然感觉，这个家的精气神彻底消失掉了。哪怕她晚年失明，没有办法管理家事，被两个小孩当作玩具玩了三年，她还在就好像布恩迪亚还有希望。虽然她不能理解丈夫，但她尽心尽力地操持这个家，没有她的话这个家族早就不存在了。她耗尽心力维持这个家，养护着家里新生的孩子，结果所有人都很荒唐。经常发出这个家是疯人院的说法。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第三个是阿尔卡蒂奥，我对他最大的印象就是吊很大，以至于他可以靠这个吃饭，后来跟一个吉普赛女郎跑了，回来之后一身花纹，是花臂大哥，然后跟丽贝卡结婚了。靠着儿子给他做的合法土地过得不错，可惜死得太早了。书中对他的描写不多，最淫乱的部分都是他带来的。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第四个是我们伟大的奥雷里亚诺·布恩迪亚上校，后面太多奥雷里亚诺了，所以提到他必然带一个上校，或者直接称呼上校。上校的人生最是波澜壮阔，年轻时跟着父亲学习炼金，学会了金银匠的工艺。后来他结婚，帮助建设马孔多，跟着自由派起义。其实起义这块我没怎么看懂，怎么忽然就要发起战争了。经历过多次战争和暗杀都没有死掉。在战争中逐渐变得冷酷，最后麻木，变成只会通过不停制作小金鱼逃避人生的状态。他躲在家中作坊制作小金鱼逃避的时候也是极为孤独的，跟着他出去打仗的人几乎都死了。他应该也是内疚的/。不过乌尔拉苏将死之际回忆起上校说他从头到尾一直都是个冷酷的人。但我看他对雷梅黛丝倒是很有感情。上校带来的孤寂和麻木是我们跟着经历了很多事情之后出现的，其中的冲击力其实很强。我读到后面觉得很唏嘘和悲哀。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第五个是布恩迪亚家族延续下来最重要的一个人，她就是&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;庇拉尔·特尔内拉，不仅用纸牌术帮助过布恩迪亚家的很多人解决疑惑和预言，而且家中最重要的后代也是她生下的，她更是超人，死得比乌尔苏拉还晚。她和大儿子生下了&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;何塞·阿尔卡蒂奥这样一个暴君。可能因为是私生子从小就没有父母关照爱护，乌尔苏拉对他的态度也不算好。导致他内心有点变态，在学校中掌权之后变成了个暴君。甚至想和&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;庇拉尔乱伦。最后&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;庇拉尔找了另一个女孩给他，然后有一次给布恩迪亚家族延续了血脉。可以说没有她布恩迪亚家也早就血脉断绝了。尤其是在上校的后代全被杀死的情况下。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第六个是&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;阿玛兰妲·布恩迪亚。作为家中的三女，她从小和丽贝卡一起长大，本改同她情同手足，但是却对她生出极大的嫉妒和怨恨。她是我最不理解的一个人。首先是不知为何内心怀抱恶毒的怨恨，然后是极力破坏丽贝卡的婚事，这一点从她后来拒绝了丽贝卡的未婚夫的情况来看她有可能是喜欢丽贝卡，不希望她嫁给其他人。然后明明对&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;赫里内勒多·马尔克斯是有感情的，但是也拒绝了他的求婚，不知道在想什么。因为自己作变成老处女之后又在给侄子洗澡的时候给他爱抚，我印象中好像还和侄子搞在一起了。但是她下葬的时候又说她是老处女。&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第七个是丽贝卡。我其实挺喜欢这个小姑娘的，一开始感觉她好像挺正常的。但是再见到阿尔卡蒂奥回来之后不知道为什么对他生出了无穷的爱欲，在和未婚夫的婚礼中被打断了多次，不知道是不是因为这一点她也心理变态了，见到了大儿子的大雕就立刻和他滚到了一起，完全被欲望支配了。就算如此，如果大儿子没死的话他们应该也能过得挺不错的，但是在动乱中被打死了。最后只能在破旧的老房子了孤独活到终老，孤独死去。在表象上看她是最孤独的，一个人从年轻活到老死。很惨。&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第七个是十四岁的小女孩，上校的妻子雷梅黛丝，在还没成熟的时候就被上校看上，等长大到能生孩子的时候就嫁给了上校。再怀孕的时候就内出血死了，应该是被人下毒了，有人说她婚后怀孕中过于劳累且因为年龄还小所以死的，但是又有人说她是被&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;庇拉尔的暴君儿子毒死的，因为他死之前提到了对雷梅黛丝的愧疚并且让人把他的女儿命名为雷梅黛丝，也就是美人儿雷梅黛丝。很可爱，也很可惜。&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第八轮到是阿尔卡蒂奥第二和奥雷里亚诺第二两兄弟。这其中奥雷里亚诺第二的戏份比较多。因为他们是双胞胎，所以他们小时候很喜欢互换身份，到某一个事件之后他们不再玩这个游戏了，但是没人知道他们各自还是不是最开始的身份，书中有通过乌尔苏拉怀疑的视角暗示他们是互换了名字的。最后一起死的时候抬棺人喝醉了把他们互换了下葬的位置才算是阴差阳错地换了回来，这一点就很有宿命感。还有就是阿尔卡蒂奥第二举行的工会罢工，最后全被射杀，但是被政府掩盖，没有人知道，最后躲进小屋的行为无疑是很直白的孤独，所有人都死了。世界上没有人能理解他。至于奥雷里亚诺第二则是狂欢了一辈子，在临近晚年的时候才凄惨了一段时间，我认为他的人生已经是这个家族里相对很好的了，年轻时就不需为生活烦恼，顺从欲望，尽情享乐。但是因为过于享乐以至于看上去有些空虚。他非常没有责任心，抛下费尔南达不管，与情妇快活。但是不知道为什么，与没有责任心和顺从欲望的表现相反的是他非常重视承诺，但凡是他给出的承诺他大都认真完成了。我认为有可能是他对求亲时的承诺没有达成的补偿。他重承诺的主要表现在对费尔南达的承诺上。他对女儿也很不错，可惜做了个不好的榜样。女儿很早就跟他一样乐于沉溺于欲望之中。&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第九个是第二个雷梅黛丝，人们称为美人儿雷梅黛丝。在文中的描述是她的美貌能令所有人癫狂，但是没有人因此而强奸她。同时其本性非常天真，自由。她表现出来的不像是一个经过社会规训过的一个人，反而是一个完全自由的，没有羞耻和伦理观念的，身上没有背负族群，社会规范的自由人。有人说她代表着布恩迪亚家的神圣和纯洁。我其实没太读懂这个角色。但是她给人的印象也非常深刻。她的本性更像传统观念中的亚当和夏娃的样子。再加上她在院中凭空升天啊的形象就更和神联系在一起了。&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第十个是雷娜塔·雷梅黛丝，人们称之为梅梅的一个人。她虽然活在母亲严苛的规训下，但是又被父亲的宠爱滋养着，这更放大了她的逆反心理。加之从父亲身上学来的放纵。她很早就放任欲望支配自己。并且越阻止她她越要沉沦，所以从一开始就没人救得了她，包括她自己。&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;第十一个是费尔南达，她其实比梅梅要重要。她更像是乌尔苏拉的继承人。从小被父亲宠爱，砸锅卖铁也要给她做出个女王梦。因此嫁到布恩迪亚家里来之后的落差令她受不了，丈夫对她的冷落和其他家人对她的阴阳怪气更是使其心里扭曲。这就是她后来鸡娃的根源所在。在乌尔苏拉年老力衰之后这个家族的担子就交到她手上。但是很显然她做得没有乌尔苏拉好。这个人的孤独感也很明显。因为凭空而来的女王梦。从小到大都没有朋友。最后因为“女王”的头衔而与奥雷里亚诺第二结婚，她女王的装束也被丈夫拿去给情人取乐，这简直是把她的心碾碎了。本来以为结婚之后就能没那么孤独，结果与丈夫的关系反而让她失去了最后的期盼。转而将剩余的人生全部灌注于下一代身上。很可怜的一个人，&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;最后就没什么了，费尔南达的儿子和费尔南达一直互相欺骗，两个都没有办法相互理解，但是费尔南达死前也还不知道这个欺骗的事。儿子回家后因为那个巨额财富被小孩杀死。很悲凉。然后是这个家族经典的侄子和姑姑乱伦。身为私生子的奥雷里亚诺不知道自己的身世，以为自己是被从外面抱回来的，在不知情的情况下与姑姑进行了最后的疯狂，布恩迪亚家的绝唱。生下了首尾呼应的猪尾巴孩子。最后破译出了羊皮卷，知道了整个家族的命运，我认为这个羊皮卷是为了能在后面合理地回顾家族的命运，加深宿命感。&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;这本书回味很深。我比较喜欢用味道来评价一本书，这本书的味道就很足。后劲也很猛。我愿意对所有人推荐这本书。真的无敌。&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1150" width="1029.5" x="1170" y="910" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
